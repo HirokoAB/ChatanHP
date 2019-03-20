@@ -26,6 +26,10 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Stylesheets ============================================= -->
+
+  <!-- 阿部さんcss -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style_sample.css">
+
   <!-- Default stylesheets-->
   <link rel="stylesheet" href="assets/css/reset.css">
   <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -45,21 +49,83 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
 </head>
+
 <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
   <main>
 
-    <!-- レンタルスタジオの記述 -->
+    <!-- レンタル会議室 -->
+    <h1>レンタル会議室</h1>
+    <p>1時間あたり1,200円からご案内しています。</p>
+    <div class="img">
+      <img src="assets/images/meeting-room/IT.JPG" alt="IT-room">
+      <img src="assets/images/meeting-room/meeting-roomA.JPG" alt="meeting-roomA">
+      <img src="assets/images/meeting-room/meeting-roomB.JPG" alt="meeting-roomB">
+    </div>
+
+
+    <!-- レンタルオフィス -->
+    <h1>レンタルオフィス</h1>
+    <p>レンタルオフィスは北谷町役場商工観光課より公募という形で募集をおこないます</p>
+    <div class="img">
+      <img src="assets/images/meeting-room/office-roomA.JPG" alt="office-roomA">
+      <img src="assets/images/meeting-room/office-roomB.JPG" alt="office-roomB">
+      <img src="assets/images/meeting-room/office-roomC.JPG" alt="office-roomC">
+    </div>
+
+
+    <!-- レンタル器材 -->
+    <section class="module" id="rental">
+      <h2 class="subtitle">レンタル機材</h2>
+      <h3>ご予約は本日より７営業日先から受付をおこない、向こう3ヶ月までご予約できます。</h3>
+      <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid work-item">
+        <li class="work-item"><a href="portfolio-single-1.html">
+          <div class="work-image"><img src="https://placehold.jp/311.33px383.png" alt="Portfolio Item"/></div>
+          <div class="work-caption font-alt">
+            <h3 class="work-title">1日料金：2,600円</h3>
+            <h4 class="work-descr">詳細はこちらから</h4>
+          </div></a>
+        <span>ビンデン三脚</span>
+        </li>
+        <li class="work-item"><a href="portfolio-single-1.html">
+          <div class="work-image"><img src="https://placehold.jp/311.33px383.png" alt="Portfolio Item"/></div>
+          <div class="work-caption font-alt">
+            <h3 class="work-title">1日料金：500円</h3>
+            <h4 class="work-descr">詳細はこちらから</h4>
+          </div></a>
+          <span>マンフロット三脚</span>
+        </li>
+        <li class="work-item"><a href="portfolio-single-1.html">
+          <div class="work-image"><img src="https://placehold.jp/311.33px383.png" alt="Portfolio Item"/></div>
+          <div class="work-caption font-alt">
+            <h3 class="work-title">1日料金：500円</h3>
+            <h4 class="work-descr">詳細はこちらから</h4>
+          </div></a>
+        <span>ドリー</span>
+        </li>
+        <li class="work-item"><a href="portfolio-single-1.html">
+          <div class="work-image"><img src="https://placehold.jp/311.33px383.png" alt="Portfolio Item"/></div>
+          <div class="work-caption font-alt">
+            <h3 class="work-title">1日料金：2,200円</h3>
+            <h4 class="work-descr">詳細はこちらから</h4>
+          </div></a>
+          <span>ライティングキット</span>
+        </li>
+      </ul>
+    </section>  
+
+
+    <!-- レンタルスタジオ -->
     <section class="module" id="studio">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <img src="assets/images/studio_slide/studio-1.JPG" alt="">
+            <img src="assets/images/studio_slide/studio-1.jpg" alt="">
           </div>
           <div class="col-sm-6">
-            <div class="container">
+            <div class="table-container">
               <h2>レンタルスタジオ</h2>
               <p>広さ：６０坪</p>
-              <table width="40%">
+              <table>
                 <tr>
                   <td></td>
                   <td>9-19時/時間</td>
@@ -85,11 +151,13 @@
                   <td>¥6,300</td>
                 </tr>
               </table>
+              <p class="link"><a href="">スタジオ</a>照明設備/図面<a href="">PDFダウンロード</a></p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- メディアステーションのブログ -->
     <section class="module" id="news">
@@ -148,8 +216,24 @@
             </div>
           </div>
         </div>
+        <div class="btn">
+          <button>記事一覧</button>
+        </div>
       </div>
     </section>
+
+    <!-- googleマップ -->
+    <section class="module" id="map">
+      <div class="container">
+        <div class="row">
+          <h2 class="module-title font-alt">アクセス</h2>
+          <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.3207843680784!2d127.75571131557224!3d26.31611028338815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e513051b6aba63%3A0x758d0e90af22e324!2z5YyX6LC355S6576O5rWc44Oh44OH44Kj44Ki44K544OG44O844K344On44Oz!5e0!3m2!1sja!2sjp!4v1553078249420" width="768" height="576" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- コンタクトフォーム -->
     <section class="module" id="contact">
@@ -196,6 +280,7 @@
     </section>
 
     <hr class="divider-d">
+
     <!-- フッター -->
     <footer class="footer bg-dark">
       <div class="container">
@@ -228,9 +313,6 @@
   <script src="assets/js/main.js"></script>
 </body>
 </html>
-
-
-
 
 
 
