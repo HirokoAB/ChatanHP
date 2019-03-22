@@ -1,10 +1,8 @@
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>archive</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/style_ab.css">
 </head>
 <body>
 
@@ -15,13 +13,11 @@
 	<?php $args =  array('posts_per_page' => 5 );?>
 	<!-- postsの中に表示件数で指定した数の投稿を代入 -->	　　
 	<?php $posts = get_posts($args);?>
-
-
-
 	<?php if (have_posts()): ?>
 		<div class="container">
-			<div class="forfix">
 				<?php foreach ( $posts as $post ): ?>
+        <?php setup_postdata($post);?>  
+        <div class="forfix">  
 					<?php if (has_post_thumbnail()): ?>
 						<?php the_post_thumbnail('thumbnail'); ?>
 					<?php else: ?>
@@ -35,65 +31,45 @@
 					<h3><?php the_time('Y年m月d日');?></h3>
 					<hr>
 					<!-- 記事データの取得 -->
-					<p class="article"><?php setup_postdata( $post );?></p>
+					<p class="article"><?php the_excerpt(); ?></p>
 					<!-- 記事の詳細へ -->
 					<a href="<?php the_permalink();?>">
-						<p>続きを読む</p>
+						<p class="continue">続きを読む</p>
 					</a>
 					</div>
+          </div>
 				<?php endforeach; ?>
-			</div>
 		</div>
-	<button>次へ</button>
+
+  <!-- 記事一覧の１ページ目以降か否かを判定してボタンを追加 -->
+          <?php if (is_paged()) :?>
+          <div class="btn_fix">  
+          <button class="pre">前へ</button>  
+          <button class="next">次へ</button>
+          </div>
+          <?php else: ?>
+          <button class="next">次へ</button>
+          <?php endif; ?>
+
+
+
+  <!-- 記事の投稿件数を取得してボタンの表示を切り替え -->
+  <!-- <?php $count_posts = wp_count_posts();?>  --><!-- 記事の数を取得 -->
+  <!-- <?php $postnum = $count_posts->publish;?>  --><!-- 変数に格納 -->
+  <!-- 
+  <?php if( $postnum > 5  ):?>
+  <div class="btn_fix">  
+  <button class="pre">前へ</button>  
+  <button class="next">次へ</button>
+  </div>
+  <?php else:?>
+  <button class="next">次へ</button>
+  <?php endif; ?>
+ -->
+  </div>
+
 <?php endif; ?>
-	
 
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+</div>	
 </body>
 </html>
- No newline at end of file
