@@ -914,12 +914,15 @@ blockquote {
   font-size: 30px;
   color: #111;
   margin: 0 0 70px;
+<<<<<<< HEAD
 }
 
 /*レンタル会議室テキスト*/
 h5{
   display: flex;
   justify-content: center;
+=======
+>>>>>>> 3a6eaa1737ec99f2366a434dfbeb9013fbb6e7a3
 }
 
 .module-subtitle {
@@ -2943,6 +2946,7 @@ Google map
   position: relative;
   height: 432px;
 }
+<<<<<<< HEAD
 
 
 /*レンタル機材セクション*/
@@ -2976,6 +2980,41 @@ Google map
   padding-bottom: 20px;
 }
 
+=======
+
+
+/*レンタル機材セクション*/
+#rental{
+  text-align: center;
+}
+
+#rental > ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 20%;
+
+}
+
+#rental img{
+  width: 300px;
+  height: 350px;
+  margin-right: 30px;
+}
+
+#rental li{
+  align-items: center;
+  flex-direction: column;
+}
+
+.rental_photo li:last-child {
+  margin-right: 0px;
+}
+
+#rental a{
+  padding-bottom: 20px;
+}
+
+>>>>>>> 3a6eaa1737ec99f2366a434dfbeb9013fbb6e7a3
 
 /*レンタルスタジオセクション*/
 #studio .table{
