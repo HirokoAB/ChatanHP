@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------
-  Common
+	Common
 --------------------------------------------------------------*/
 html {
   overflow-y: scroll;
@@ -644,7 +644,7 @@ a,
 }
 
 /*--------------------------------------------------------------
-  Buttons
+	Buttons
 --------------------------------------------------------------*/
 .btn {
   border-radius: 0;
@@ -792,7 +792,7 @@ a,
 }
 
 /*--------------------------------------------------------------
-  Forms
+	Forms
 --------------------------------------------------------------*/
 /* Selection */
 ::-moz-selection {
@@ -851,7 +851,7 @@ a,
 }
 
 /*--------------------------------------------------------------
-  Typography
+	Typography
 --------------------------------------------------------------*/
 a {
   color: #111;
@@ -913,7 +913,7 @@ blockquote {
   font-weight: 400;
   font-size: 30px;
   color: #111;
-  margin: 0 0 40px;
+  margin: 0 0 70px;
 }
 
 .module-subtitle {
@@ -987,7 +987,7 @@ blockquote {
 }
 
 /*--------------------------------------------------------------
-  Slider & Carousel
+	Slider & Carousel
 --------------------------------------------------------------*/
 /* -------------------------------------------------------------------
 General Styles - FlexSlider
@@ -1173,7 +1173,7 @@ General Styles - Owlcarousel
 }
 
 /*--------------------------------------------------------------
-  Preloader
+	Preloader
 --------------------------------------------------------------*/
 .page-loader {
   position: fixed;
@@ -1236,7 +1236,7 @@ General Styles - Owlcarousel
 }
 
 /*--------------------------------------------------------------
-  Navbar
+	Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
   background-color: rgba(10, 10, 10, 0.9);
@@ -1337,36 +1337,36 @@ General Styles - Owlcarousel
 /* Navbar search
 
 .dropdown-search {
-  position: relative;
-  padding: 5px;
+	position: relative;
+	padding: 5px;
 }
 
 .dropdown-search .form-control {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 11px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 11px;
 }
 
 .search-btn {
-  position: absolute;
-  background: transparent;
-  border: none;
-  overflow: hidden;
-  top: 50%;
-  right: 1px;
-  width: 42px;
-  height: 40px;
-  line-height: 38px;
-  font-size: 14px;
-  outline: none;
-  color: #999;
-  margin-top: -20px;
+	position: absolute;
+	background: transparent;
+	border: none;
+	overflow: hidden;
+	top: 50%;
+	right: 1px;
+	width: 42px;
+	height: 40px;
+	line-height: 38px;
+	font-size: 14px;
+	outline: none;
+	color: #999;
+	margin-top: -20px;
 }*/
 /*--------------------------------------------------------------
-  Header
+	Header
 --------------------------------------------------------------*/
 .home-section {
   position: relative;
@@ -1503,7 +1503,7 @@ General Styles - Owlcarousel
 }
 
 /*--------------------------------------------------------------
-  Footer
+	Footer
 --------------------------------------------------------------*/
 .footer {
   padding: 10px 0;
@@ -1541,7 +1541,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Services & Features
+	Services & Features
 --------------------------------------------------------------*/
 .features-item {
   margin: 20px 0;
@@ -1601,7 +1601,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Team
+	Team
 --------------------------------------------------------------*/
 .team-item {
   position: relative;
@@ -1687,7 +1687,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Restaurant Menu
+	Restaurant Menu
 --------------------------------------------------------------*/
 .menu {
   border-bottom: 1px dotted #e5e5e5;
@@ -1708,7 +1708,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Price Table
+	Price Table
 --------------------------------------------------------------*/
 .price-table {
   background: #fff;
@@ -1805,7 +1805,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Fun fact
+	Fun fact
 --------------------------------------------------------------*/
 .count-item {
   text-align: center;
@@ -1817,7 +1817,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Video Box
+	Video Box
 --------------------------------------------------------------*/
 .video-box {
   text-align: center;
@@ -1842,7 +1842,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Portfolio
+	Portfolio
 --------------------------------------------------------------*/
 /* Portfolio filter */
 .filter {
@@ -1992,7 +1992,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Single Portfolio
+	Single Portfolio
 --------------------------------------------------------------*/
 .work-details {
   margin: 0 0 20px;
@@ -2016,7 +2016,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Call to action
+	Call to action
 --------------------------------------------------------------*/
 .callout-text {
   color: rgba(255, 255, 255, 0.6);
@@ -2039,7 +2039,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Testimonial
+	Testimonial
 --------------------------------------------------------------*/
 .testimonial:before {
   background: rgba(2, 2, 2, 0.4);
@@ -2070,7 +2070,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Gallery
+	Gallery
 --------------------------------------------------------------*/
 .gallery-item {
   position: relative;
@@ -2147,7 +2147,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Blog Post
+	Blog Post
 --------------------------------------------------------------*/
 .post {
   margin: 0 0 80px;
@@ -2243,7 +2243,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Widgets
+	Widgets
 --------------------------------------------------------------*/
 /* Progress bars */
 .progress {
@@ -2423,7 +2423,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Comment Box in Blog
+	Comment Box in Blog
 --------------------------------------------------------------*/
 .comments,
 .comment-form {
@@ -2467,7 +2467,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Client
+	Client
 --------------------------------------------------------------*/
 .client-logo {
   opacity: .5;
@@ -2478,7 +2478,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Shop Items
+	Shop Items
 --------------------------------------------------------------*/
 .shop-item {
   text-align: center;
@@ -2543,7 +2543,7 @@ Google map
 }
 
 /* -------------------------------------------------------------------
-  Exclusive products
+	Exclusive products
 ------------------------------------------------------------------- */
 .ex-product {
   opacity: .7;
@@ -2555,7 +2555,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Shop Single Product
+	Shop Single Product
 --------------------------------------------------------------*/
 .product-gallery {
   list-style: none;
@@ -2599,7 +2599,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Showcase Page
+	Showcase Page
 --------------------------------------------------------------*/
 .showcase-page .showcase-page-header {
   background-color: rgba(2, 2, 2, 0.7);
@@ -2629,7 +2629,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Documentation Page
+	Documentation Page
 --------------------------------------------------------------*/
 .documentation-page {
   font-size: 14px;
@@ -2694,7 +2694,7 @@ Google map
 }
 
 /*--------------------------------------------------------------
-  Responsive Styles - Media Queries
+	Responsive Styles - Media Queries
 --------------------------------------------------------------*/
 @media (min-width: 768px) {
   .navbar-transparent {
@@ -2927,17 +2927,95 @@ Google map
 }
 
 
-/*--------------------------------------------------------------
-  rental studio
---------------------------------------------------------------*/
+/*ここからオリジナル*/
+/*レンタルオフィスセクション*/
+#works ul{
+  position: relative;
+  height: 432px;
+}
+
+
+/*レンタル機材セクション*/
+#rental{
+  text-align: center;
+}
+
+#rental > ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 20%;
+
+}
+
+#rental img{
+  width: 300px;
+  height: 350px;
+  margin-right: 30px;
+}
+
+#rental li{
+  align-items: center;
+  flex-direction: column;
+}
+
+.rental_photo li:last-child {
+  margin-right: 0px;
+}
+
+#rental a{
+  padding-bottom: 20px;
+}
+
+
+/*レンタルスタジオセクション*/
+#studio .table{
+  padding-top: 80px;
+}
+
 #studio tr{
+  line-height: 24px;
   border-bottom: solid 1px silver;
 }
 
-#studio td{
-  
+#studio .link{
+  margin-top: 10px;
 }
 
+#studio .link,
+#studio a{
+  color: #006CFF;
+}
+
+#studio a{
+  text-decoration: underline;
+}
+
+/*ブログセクション*/
+#news .btn{
+  display: flex;
+  justify-content: center;
+}
+
+#news img{
+  height: 300px;
+  width: 350px;
+}
+
+/*googleマップセクション*/
+.google-map{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#map img {
+  max-width: none;
+}
 
 
 
