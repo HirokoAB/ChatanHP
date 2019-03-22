@@ -916,6 +916,12 @@ blockquote {
   margin: 0 0 70px;
 }
 
+/*レンタル会議室テキスト*/
+h5{
+  display: flex;
+  justify-content: center;
+}
+
 .module-subtitle {
   text-align: center;
   font-size: 16px;
@@ -1396,9 +1402,10 @@ General Styles - Owlcarousel
 }
 
 .titan-title-size-4 {
-  letter-spacing: 24px;
+  /*letter-spacing: 24px;*/
   font-weight: 400;
-  font-size: 48px;
+  font-size: 25px;
+  font-family: "HiraKakuPro-W6";
 }
 
 /* Agency Page Header */
@@ -1940,6 +1947,9 @@ Google map
 }
 
 .work-descr {
+  color: #aaa;
+}
+.work-descrs{
   color: #aaa;
 }
 
@@ -2925,3 +2935,99 @@ Google map
     width: 100%;
   }
 }
+
+
+/*ここからオリジナル*/
+/*レンタルオフィスセクション*/
+#works ul{
+  position: relative;
+  height: 432px;
+}
+
+
+/*レンタル機材セクション*/
+#rental{
+  text-align: center;
+}
+
+#rental > ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 20%;
+
+}
+
+#rental img{
+  width: 300px;
+  height: 350px;
+  margin-right: 30px;
+}
+
+#rental li{
+  align-items: center;
+  flex-direction: column;
+}
+
+.rental_photo li:last-child {
+  margin-right: 0px;
+}
+
+#rental a{
+  padding-bottom: 20px;
+}
+
+
+/*レンタルスタジオセクション*/
+#studio .table{
+  padding-top: 80px;
+}
+
+#studio tr{
+  line-height: 24px;
+  border-bottom: solid 1px silver;
+}
+
+#studio .link{
+  margin-top: 10px;
+}
+
+#studio .link,
+#studio a{
+  color: #006CFF;
+}
+
+#studio a{
+  text-decoration: underline;
+}
+
+/*ブログセクション*/
+#news .btn{
+  display: flex;
+  justify-content: center;
+}
+
+#news img{
+  height: 300px;
+  width: 350px;
+}
+
+/*googleマップセクション*/
+.google-map{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#map img {
+  max-width: none;
+}
+
+
+
+
+
