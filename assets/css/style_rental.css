@@ -1,0 +1,35 @@
+
+#rental{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+#rental > ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 20%;
+
+}
+
+
+
+#rental img{
+  width: 311.33px;
+  height: 383px;
+  margin-right: 29.67px;
+  margin-bottom: 25px;
+}
+
+
+#rental li{
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.rental_photo li:last-child{
+  margin-right: 0px;
+}
