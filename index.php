@@ -145,6 +145,7 @@
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">レンタル会議室</h2>
+                  <h5>1時間あたり1,200円からご案内しています。</h5>
                 <div class="module-subtitle font-serif"></div>
               </div>
             </div>
@@ -155,29 +156,38 @@
             <li class="work-item illustration webdesign"><a href="portfolio-single-1.html">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/IT.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">Corporate Identity</h3>
-                <div class="work-descr">Illustration</div>
+                <h3 class="work-title">IT研修室</h3>
+                <div class="work-descr">広さ55㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <button>詳細はこちら</button>
               </div></a>
             </li>
             <!-- ２枚目 -->
             <li class="work-item marketing photography"><a href="portfolio-single-1.html">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomA.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">Bag MockUp</h3>
-                <div class="work-descr">Marketing</div>
+                <h3 class="work-title">IT研修室</h3>
+                <div class="work-descr">広さ55㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <button>詳細はこちら</button>
+
               </div></a>
             </li>
             <!-- ３枚目 -->
             <li class="work-item illustration photography"><a href="portfolio-single-1.html">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomB.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">Disk Cover</h3>
-                <div class="work-descr">Illustration</div>
+                <h3 class="work-title">IT研修室</h3>
+                <div class="work-descr">広さ55㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <button>詳細はこちら</button>
+
               </div></a>
             </li>
 
           </ul>
         </section>
+
 
 
         <!-- レンタルオフィスここから -->
@@ -186,6 +196,7 @@
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">レンタルオフィス</h2>
+                <h5>レンタルオフィスは北谷町役場商工観光課より公募という形で募集をおこないます</h5>
                 <div class="module-subtitle font-serif"></div>
               </div>
             </div>
@@ -196,26 +207,30 @@
             <li class="work-item illustration webdesign"><a href="portfolio-single-1.html">
                 <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomA.JPG" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Corporate Identity</h3>
-                  <div class="work-descr">Illustration</div>
+                  <h3 class="work-title">事務室A</h3>
+                  <div class="work-descr">広さ：25㎡</div>
+                <button>詳細はこちら</button>
+
                 </div></a></li>
             <!-- ２枚目 -->
             <li class="work-item marketing photography"><a href="portfolio-single-1.html">
                 <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Bag MockUp</h3>
-                  <div class="work-descr">Marketing</div>
+                  <h3 class="work-title">事務室A</h3>
+                  <div class="work-descr">広さ：25㎡</div>
+                <button>詳細はこちら</button>
+
                 </div></a></li>
             <!-- ３枚目 -->
             <li class="work-item illustration photography"><a href="portfolio-single-1.html">
                 <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Disk Cover</h3>
-                  <div class="work-descr">Illustration</div>
+                  <h3 class="work-title">事務室A</h3>
+                  <div class="work-descr">広さ：25㎡</div>
+                <button>詳細はこちら</button>
                 </div></a></li>
           </ul>
         </section>
-
 
         <!-- レンタル機材セクション -->
         <section class="module" id="rental">
