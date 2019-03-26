@@ -1,4 +1,10 @@
-
+<!-- 送信完了後の画面背にのための記述 -->
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+location = 'http://localhost/wordpress/wpcf7-f7-o1';
+}, false );
+</script>
+<!-- 送信完了後の画面背にのための記述 -->
         <!-- フッター -->
         <footer class="footer bg-dark">
           <div class="container">
