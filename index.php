@@ -193,22 +193,46 @@
             <!-- イメージ画像 -->
             <div class="row multi-columns-row post-columns">
               <!-- １記事目 -->
+              <?php if (have_posts()): ?>  
               <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <?php while (have_posts()): the_post(); ?>
+                  <div class="post-thumbnail">   
+                  <p id="post-<?php the_ID(); ?>" <?php post_class('news'); ?>> 
+                  <?php if (has_post_thumbnail()): ?>
+                    <a href="<?php the_permalink(); ?>">
+                      <?php the_post_thumbnail('thumbnail'); ?>
+                    </a>
+                  <?php else: ?>
+                <a href="<?php the_permalink(); ?>">
+                    <img src="https://placehold.jp/150x150.png" alt="" height="150", width="150">
+                </a>
+                </div>
+              <?php endif; ?>
+                  <!-- <div class="post-thumbnail"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div> -->
                   <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">タイトル</a></h2>
-                    <div class="post-meta"><p>2019/03/17</p>
+                    <h2 class="post-title"><?php the_title(); //タイトル ?>タイトル</h2>
+                    <div class="post-meta"><p><?php the_time('Y/m/d/'); //投稿日時 ?></p>
                     </div>
                   </div>
                   <div class="post-entry">
-                    <p>記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。</p>
+                    <p><?php the_excerpt(); //本文抜粋 ?></p>
                   </div>
-                  <div class="post-more"><a class="more-link" href="#">続きを読む</a></div>
+                  <div class="post-more"><a class="more-link"href="<?php the_permalink(); //詳細へのリンク ?>">続きを読む</a></div>
                 </div>
+                <?php endwhile; ?>
+
               </div>
+
+              <?php else: ?>
+                  <h2><span>投稿はありません</span></h2>
+              <?php endif; ?>
+            </div>
+
+
+
               <!-- ２記事目 -->
-              <div class="col-sm-6 col-md-4 col-lg-4">
+              <!-- <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="post mb-20">
                   <div class="post-thumbnail"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
                   <div class="post-header font-alt">
@@ -221,9 +245,9 @@
                   </div>
                   <div class="post-more"><a class="more-link" href="#">続きを読む</a></div>
                 </div>
-              </div>
+              </div> -->
               <!-- ３記事目 -->
-              <div class="col-sm-6 col-md-4 col-lg-4">
+              <!-- <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="post mb-20">
                   <div class="post-thumbnail"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
                   <div class="post-header font-alt">
@@ -241,7 +265,7 @@
             <div class="btn">
               <button>記事一覧</button>
             </div>
-          </div>
+          </div> -->
         </section>
 
         <!-- googleマップ -->
