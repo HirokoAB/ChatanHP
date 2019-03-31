@@ -2503,34 +2503,66 @@ Google map
   .works-grid-5 .work-item {
     width: 100%; } }
 
-.rental h1 {
+.office h1 {
   text-align: center;
   font-size: 25px; }
 
-.rental h2 {
+.office h2 {
   text-align: center;
   font-size: 18px; }
 
-.rental img {
+.office img {
   height: 381px;
   width: 632.33px;
   margin-top: 5px; }
 
-.rental .office {
+.office .office {
   display: flex;
   justify-content: center; }
 
-.rental .text {
+.office .text {
   display: flex;
   flex-direction: column;
   justify-content: center; }
 
-.rental p {
+.office p {
   margin-top: 10px;
   margin-left: 100px;
   margin-right: 100px;
   font-size: 18px; }
 
-.rental .office-room {
+.office .office-room {
+  margin-bottom: 20px;
+  font-size: 25px; }
+
+.meeting-room h1 {
+  text-align: center;
+  font-size: 25px; }
+
+.meeting-room h2 {
+  text-align: center;
+  font-size: 18px; }
+
+.meeting-room img {
+  height: 381px;
+  width: 632.33px;
+  margin-top: 50px; }
+
+.meeting-room .it-room {
+  display: flex;
+  justify-content: center; }
+
+.meeting-room .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.meeting-room p {
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 18px; }
+
+.meeting-room .it {
   margin-bottom: 20px;
   font-size: 25px; }

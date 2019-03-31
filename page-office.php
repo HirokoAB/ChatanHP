@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="rental">
+<section class="office">
    <!-- レンタルオフィス -->
 
   <h1>レンタルオフィス</h1>
