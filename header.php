@@ -26,7 +26,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -53,6 +52,7 @@
     <!-- Main stylesheet and color file-->
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="<?php echo get_template_directory_uri(); ?>/assets/css/colors/default.css" rel="stylesheet">
+    <?php wp_head(); ?>
   </head>
 
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
@@ -62,25 +62,25 @@
         <div class="loader">Loading...</div>
       </div>
 
-      <!-- 画面上部ヘッダーの表示 -->
+      <!-- ナビゲーション -->
       <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
         <div class="container">
           <!-- タイトルテキストの記述 -->
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">北谷町メディアセンター</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="<?php echo home_url(); ?>">北谷町メディアセンター</a>
 
           </div>
           <!-- サブメニューの記述 -->
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               <!-- HOMEドロップダウンメニュー -->
-              <li class="dropdown"><a href="#meets">レンタル会議室</a>
+              <li class="dropdown"><a href="<?php echo get_permalink( 15 ); ?>">レンタル会議室</a>
               </li>
               <!-- HEADERSドロップダウンメニュー -->
-              <li class="dropdown"><a href="#works">レンタルオフィス</a>
+              <li class="dropdown"><a href="<?php echo get_permalink( 11 ); ?>">レンタルオフィス</a>
               </li>
               <!-- PAGESドロップダウンメニュー -->
-              <li class="dropdown"><a href="#rental">レンタル機材</a>
+              <li class="dropdown"><a href="<?php echo get_permalink( 17 ); ?>">レンタル機材</a>
               </li>
               <!-- PORTFOLIOドロップダウンメニュー -->
               <li class="dropdown"><a href="#studio">レンタルスタジオ</a>
@@ -96,7 +96,7 @@
         </div>
       </nav>
 
-
+      <?php if (is_home()): ?>
       <!-- トップイメージ画面部分（スライダー表示） -->
       <section class="home-section home-parallax home-fade home-full-height" id="home">
         <div class="hero-slider">
@@ -136,3 +136,6 @@
           </ul>
         </div>
       </section>
+      <?php else: ?>
+        トップページ以外
+      <?php endif; ?>
