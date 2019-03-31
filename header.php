@@ -67,20 +67,20 @@
         <div class="container">
           <!-- タイトルテキストの記述 -->
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">北谷町メディアセンター</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="<?php echo home_url(); ?>">北谷町メディアセンター</a>
 
           </div>
           <!-- サブメニューの記述 -->
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               <!-- HOMEドロップダウンメニュー -->
-              <li class="dropdown"><a href="#meets">レンタル会議室</a>
+              <li class="dropdown"><a href="<?php echo get_permalink( 15 ); ?>">レンタル会議室</a>
               </li>
               <!-- HEADERSドロップダウンメニュー -->
-              <li class="dropdown"><a href="#works">レンタルオフィス</a>
+              <li class="dropdown"><a href="<?php echo get_permalink( 11 ); ?>">レンタルオフィス</a>
               </li>
               <!-- PAGESドロップダウンメニュー -->
-              <li class="dropdown"><a href="#rental">レンタル機材</a>
+              <li class="dropdown"><a href="<?php echo get_permalink( 17 ); ?>">レンタル機材</a>
               </li>
               <!-- PORTFOLIOドロップダウンメニュー -->
               <li class="dropdown"><a href="#studio">レンタルスタジオ</a>
