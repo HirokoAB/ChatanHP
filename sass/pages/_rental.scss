@@ -1,0 +1,40 @@
+.rental {
+      h1{
+        text-align: center;
+        font-size: 25px;
+      }
+      
+      h2{
+        text-align: center;
+        font-size: 18px;
+      }
+      img{
+        height: 381px;
+        width: 632.33px;
+        margin-top: 5px;
+      }
+      
+      
+      .office{
+        display: flex;
+        justify-content: center;
+      }
+      
+      .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      p{
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 18px;
+      }
+      
+      .office-room{
+        margin-bottom: 20px;
+        font-size: 25px;
+      }
+}
