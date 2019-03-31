@@ -53,6 +53,7 @@
     <!-- Main stylesheet and color file-->
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="<?php echo get_template_directory_uri(); ?>/assets/css/colors/default.css" rel="stylesheet">
+    <?php wp_head(); ?>
   </head>
 
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
@@ -62,7 +63,7 @@
         <div class="loader">Loading...</div>
       </div>
 
-      <!-- 画面上部ヘッダーの表示 -->
+      <!-- ナビゲーション -->
       <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
         <div class="container">
           <!-- タイトルテキストの記述 -->
@@ -96,7 +97,7 @@
         </div>
       </nav>
 
-
+      <?php if (is_home()): ?>
       <!-- トップイメージ画面部分（スライダー表示） -->
       <section class="home-section home-parallax home-fade home-full-height" id="home">
         <div class="hero-slider">
@@ -136,3 +137,6 @@
           </ul>
         </div>
       </section>
+      <?php else: ?>
+        トップページ以外
+      <?php endif; ?>

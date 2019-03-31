@@ -34,5 +34,6 @@
     <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
+  <?php wp_footer(); ?>
   </body>
 </html>
