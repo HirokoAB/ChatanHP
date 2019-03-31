@@ -1,13 +1,5 @@
-<html lang="en">
-<head>
-	<title>archive</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/style_ab.css">
-</head>
-<body>
-
-
-	<div id="cancelpolicy">
+<?php get_header(); ?>
+<section class="cancel-policy">
 	<!-- タイトル -->
 	<h1>キャンセルポリシー</h1>
 
@@ -66,8 +58,5 @@
 			<li>メール：welcome@mihama-st.com</li>
 		</ul>
 	</div>
-
-</div>
-
-</body>
+</section>
 <?php get_footer(); ?>

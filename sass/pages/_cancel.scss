@@ -1,0 +1,34 @@
+.cancel-policy {
+    width: 50%;
+    margin:auto;
+
+    h1 {
+        text-align: center;
+    }
+
+    .container{
+        margin: 10% 0%;
+    }
+       
+    .container > h2,p,ul{
+        padding-left: 30px;
+        line-height: 30px;
+    }
+
+    #bank-account{
+        width: 35%;
+        padding: 20px 0px;
+        margin: 10px 0px;
+        margin-left: 20px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .bank-data li:nth-child(6){
+        margin-bottom: 20px;
+        width: 35%;
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+    }
+}
+  
