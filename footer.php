@@ -29,7 +29,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/flexslider/jquery.flexslider.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/smoothscroll.js"></script>
+    <!-- <script src="<?php //echo get_template_directory_uri(); ?>/assets/lib/smoothscroll.js"></script> -->
     <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
