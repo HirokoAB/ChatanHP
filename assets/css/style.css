@@ -1108,8 +1108,8 @@ a,
   background: rgba(34, 34, 34, 0.3); }
 
 @media (min-width: 768px) {
-  .navbar-transparent {
-    background: transparent;
+  .navbar-custom.navbar-transparent {
+    background-color: transparent;
     padding-bottom: 15px;
     padding-top: 15px; }
   .navbar-custom .dropdown-menu {
@@ -1376,37 +1376,6 @@ a,
   min-width: 180px;
   font-size: 11px; }
 
-/* Navbar search
-
-.dropdown-search {
-	position: relative;
-	padding: 5px;
-}
-
-.dropdown-search .form-control {
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 11px;
-}
-
-.search-btn {
-	position: absolute;
-	background: transparent;
-	border: none;
-	overflow: hidden;
-	top: 50%;
-	right: 1px;
-	width: 42px;
-	height: 40px;
-	line-height: 38px;
-	font-size: 14px;
-	outline: none;
-	color: #999;
-	margin-top: -20px;
-}*/
 /* Portfolio filter */
 .filter {
   text-align: center;
