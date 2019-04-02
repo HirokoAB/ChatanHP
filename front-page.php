@@ -113,18 +113,21 @@
               </div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">事務室A</h3>
-                <div class="work-descr">広さ：25㎡</div>
+                <div class="work-descr">広さ : 25㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
                   <a href="">詳細はこちら</a>
                 </div>
               </div>
             </li>
-            <!-- ２枚目 -->
-            <li class="work-item marketing photography">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/></div>
+            <li class="work-item illustration webdesign">
+              <div class="work-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/>
+              </div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">事務室A</h3>
-                <div class="work-descr">広さ：25㎡</div>
+                <h3 class="work-title">IT研修室</h3>
+                <div class="work-descr">広さ55㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
                   <a href="">詳細はこちら</a>
                 </div>
@@ -135,8 +138,9 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/>
               </div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">事務室A</h3>
-                <div class="work-descr">広さ：25㎡</div>
+                <h3 class="work-title">IT研修室</h3>
+                <div class="work-descr">広さ55㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
                   <a href="">詳細はこちら</a>
                 </div>
