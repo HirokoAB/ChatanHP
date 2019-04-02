@@ -2142,6 +2142,7 @@ blockquote {
 
 .font-alt {
   font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
   letter-spacing: 2px; }
 
 .font-serif {
@@ -2480,10 +2481,12 @@ blockquote {
   margin-bottom: 20px;
   font-size: 25px; }
 
-.meeting .detail-btn {
+.meeting .detail-btn,
+.office .detail-btn {
   margin-top: 20px; }
 
-.meeting .detail-btn a {
+.meeting .detail-btn a,
+.office .detail-btn a {
   padding: 5px 20px;
   border-radius: 3px;
   border: 1px solid #000; }

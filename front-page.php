@@ -1,7 +1,7 @@
 <?php get_header(); ?>
       <div class="main">
         <!-- レンタル会議室ここから -->
-        <section class="module meeting" id="meets">
+        <section class="module meeting">
           <div class="container">
             <div class="row text-center">
               <div class="col-sm-6 col-sm-offset-3">
@@ -11,8 +11,7 @@
               </div>
             </div>
           </div>
-          <!-- イメージ画像 -->
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w">
             <li class="work-item illustration webdesign">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/IT.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
@@ -49,37 +48,39 @@
           </ul>
         </section>
 
-        <!-- レンタルオフィスここから -->
-        <section class="module" id="works">
+        <!-- レンタルオフィス -->
+        <section class="module office">
           <div class="container">
             <div class="row text-center">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">レンタルオフィス</h2>
-                <h5>レンタルオフィスは北谷町役場商工観光課より公募という形で募集をおこないます</h5>
+                  <h5>レンタルオフィスは北谷町役場商工観光課より公募という形で募集をおこないます</h5>
                 <div class="module-subtitle font-serif"></div>
               </div>
             </div>
           </div>
-          <!-- イメージ画像 -->
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w">
             <li class="work-item illustration webdesign">
               <div class="work-image">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomA.JPG" alt="Portfolio Item"/>
               </div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">事務室A</h3>
-                <div class="work-descr">広さ：25㎡</div>
+                <div class="work-descr">広さ : 25㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
                   <a href="">詳細はこちら</a>
                 </div>
               </div>
             </li>
-            <!-- ２枚目 -->
-            <li class="work-item marketing photography">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/></div>
+            <li class="work-item illustration webdesign">
+              <div class="work-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/>
+              </div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">事務室A</h3>
-                <div class="work-descr">広さ：25㎡</div>
+                <h3 class="work-title">IT研修室</h3>
+                <div class="work-descr">広さ55㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
                   <a href="">詳細はこちら</a>
                 </div>
@@ -90,8 +91,9 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/>
               </div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">事務室A</h3>
-                <div class="work-descr">広さ：25㎡</div>
+                <h3 class="work-title">IT研修室</h3>
+                <div class="work-descr">広さ55㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
                   <a href="">詳細はこちら</a>
                 </div>
@@ -110,7 +112,7 @@
                 <div class="module-subtitle font-serif"></div>
               </div>
               
-              <ul class="works-grid-4 works-hover-w" id="works-grid work-item">
+              <ul class="works-grid-4 works-hover-w" id="work-item">
                 <li class="work-item"><a href="portfolio-single-1.html">
                   <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/binden.jpg" alt="Rental Item"/></div>
                   <div class="work-caption font-alt">
