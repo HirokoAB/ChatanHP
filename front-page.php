@@ -1,7 +1,7 @@
 <?php get_header(); ?>
       <div class="main">
         <!-- レンタル会議室ここから -->
-        <section class="module" id="meets">
+        <section class="module meeting" id="meets">
           <div class="container">
             <div class="row text-center">
               <div class="col-sm-6 col-sm-offset-3">
@@ -13,39 +13,39 @@
           </div>
           <!-- イメージ画像 -->
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-            <!-- １枚目 -->
-            <li class="work-item illustration webdesign"><a href="portfolio-single-1.html">
+            <li class="work-item illustration webdesign">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/IT.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">IT研修室</h3>
                 <div class="work-descr">広さ55㎡</div>
                 <div class="work-descrs">利用推奨人数：30名程度</div>
-                <button>詳細はこちら</button>
-              </div></a>
+                <div class="detail-btn">
+                  <a href="">詳細はこちら</a>
+                </div>
+              </div>
             </li>
-            <!-- ２枚目 -->
-            <li class="work-item marketing photography"><a href="portfolio-single-1.html">
+            <li class="work-item marketing photography">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomA.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">IT研修室</h3>
                 <div class="work-descr">広さ55㎡</div>
                 <div class="work-descrs">利用推奨人数：30名程度</div>
-                <button>詳細はこちら</button>
-
-              </div></a>
+                <div class="detail-btn">
+                  <a href="">詳細はこちら</a>
+                </div>
+              </div>
             </li>
-            <!-- ３枚目 -->
-            <li class="work-item illustration photography"><a href="portfolio-single-1.html">
+            <li class="work-item illustration photography">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomB.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">IT研修室</h3>
                 <div class="work-descr">広さ55㎡</div>
                 <div class="work-descrs">利用推奨人数：30名程度</div>
-                <button>詳細はこちら</button>
-
-              </div></a>
+                <div class="detail-btn">
+                  <a href="">詳細はこちら</a>
+                </div>
+              </div>
             </li>
-
           </ul>
         </section>
 
@@ -62,32 +62,41 @@
           </div>
           <!-- イメージ画像 -->
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-            <!-- １枚目 -->
-            <li class="work-item illustration webdesign"><a href="portfolio-single-1.html">
-                <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomA.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">事務室A</h3>
-                  <div class="work-descr">広さ：25㎡</div>
-                <button>詳細はこちら</button>
-
-                </div></a></li>
+            <li class="work-item illustration webdesign">
+              <div class="work-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomA.JPG" alt="Portfolio Item"/>
+              </div>
+              <div class="work-caption font-alt">
+                <h3 class="work-title">事務室A</h3>
+                <div class="work-descr">広さ：25㎡</div>
+                <div class="detail-btn">
+                  <a href="">詳細はこちら</a>
+                </div>
+              </div>
+            </li>
             <!-- ２枚目 -->
-            <li class="work-item marketing photography"><a href="portfolio-single-1.html">
-                <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">事務室A</h3>
-                  <div class="work-descr">広さ：25㎡</div>
-                <button>詳細はこちら</button>
-
-                </div></a></li>
-            <!-- ３枚目 -->
-            <li class="work-item illustration photography"><a href="portfolio-single-1.html">
-                <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">事務室A</h3>
-                  <div class="work-descr">広さ：25㎡</div>
-                <button>詳細はこちら</button>
-                </div></a></li>
+            <li class="work-item marketing photography">
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/></div>
+              <div class="work-caption font-alt">
+                <h3 class="work-title">事務室A</h3>
+                <div class="work-descr">広さ：25㎡</div>
+                <div class="detail-btn">
+                  <a href="">詳細はこちら</a>
+                </div>
+              </div>
+            </li>
+            <li class="work-item illustration photography">
+              <div class="work-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/>
+              </div>
+              <div class="work-caption font-alt">
+                <h3 class="work-title">事務室A</h3>
+                <div class="work-descr">広さ：25㎡</div>
+                <div class="detail-btn">
+                  <a href="">詳細はこちら</a>
+                </div>
+              </div>
+            </li>
           </ul>
         </section>
 
@@ -190,7 +199,7 @@
         </section>
 
         <!-- メディアステーションのブログ -->
-        <section class="module" id="news">
+        <section class="module news" id="news">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -199,16 +208,17 @@
               </div>
             </div>
             <div class="row multi-columns-row post-columns">
-              <?php get_template_part('loop', 'blog'); ?>
+              <?php query_posts('posts_per_page=3'); ?>
+                <?php get_template_part('loop', 'blog'); ?>
             </div>
-            <div class="btn">
+            <div class="list-btn">
               <a href="<?php echo get_permalink( 29 ); ?>">記事一覧</a>
             </div>
           </div>
         </section>
 
         <!-- googleマップ -->
-        <section class="module" id="map">
+        <section class="module map" id="map">
           <div class="container">
             <div class="row">
               <h2 class="module-title font-alt">アクセス</h2>
@@ -220,15 +230,17 @@
         </section>
 
         <!-- コンタクトフォーム -->
-        <section class="module" id="contact">
+        <section class="module contact" id="contact">
           <div class="container">
             <!-- タイトルテキスト部分 -->
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">お問い合わせ</h2>
-                <p>北谷町美浜メディアステーション管理事務所</p>
-                <p>電話：098-926-5140（平日9時～17時）</p>
-                <p>FAX：098-926-5140</p>
+                <div class="description col-sm-6 col-sm-offset-3">
+                  <p>北谷町美浜メディアステーション管理事務所</p>
+                  <p>電話：098-926-5140（平日9時～17時）</p>
+                  <p>FAX：098-926-5140</p>
+                </div>
                 <div class="module-subtitle font-serif"></div>
               </div>
             </div>

@@ -847,18 +847,25 @@ a,
 .documentation-page a:hover {
   color: #1C92C9; }
 
-.footer {
-  padding: 10px 0; }
+footer {
+  padding: 10px 0;
+  margin-top: 20px; }
 
-.footer .copyright {
+footer .copyright {
   margin: 0; }
 
-.footer .footer-social-links {
+footer .footer-social-links {
   text-align: right; }
 
-.footer .footer-social-links a {
+footer .footer-social-links a {
   display: inline-block;
   padding: 0 6px; }
+
+footer .footer-left {
+  text-align: left; }
+
+footer .footer-right {
+  text-align: right; }
 
 /* Selection */
 ::-moz-selection {
@@ -1448,8 +1455,7 @@ a,
   position: absolute;
   bottom: 100%;
   left: 0;
-  text-align: center;
-  overflow: hidden; }
+  text-align: center; }
 
 .work-title {
   font-size: 14px;
@@ -2136,7 +2142,6 @@ blockquote {
 
 .font-alt {
   font-family: "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
   letter-spacing: 2px; }
 
 .font-serif {
@@ -2475,6 +2480,14 @@ blockquote {
   margin-bottom: 20px;
   font-size: 25px; }
 
+.meeting .detail-btn {
+  margin-top: 20px; }
+
+.meeting .detail-btn a {
+  padding: 5px 20px;
+  border-radius: 3px;
+  border: 1px solid #000; }
+
 .equipment h2 {
   margin-top: 140px; }
 
@@ -2486,3 +2499,15 @@ blockquote {
   border-bottom: 2px solid #ddd;
   padding-bottom: 3px;
   margin-bottom: 3px; }
+
+.news .list-btn {
+  margin-top: 30px;
+  text-align: center; }
+
+.news .list-btn a {
+  padding: 5px 30px;
+  border-radius: 3px;
+  border: 1px solid #ddd; }
+
+.map .container {
+  text-align: center; }
