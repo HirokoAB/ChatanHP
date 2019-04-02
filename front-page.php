@@ -66,29 +66,29 @@
                 <div class="work-descr">広さ55㎡</div>
                 <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>/#room-it">詳細はこちら</a>
                 </div>
               </div>
             </li>
             <li class="work-item marketing photography">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomA.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <h3 class="work-title">会議室A</h3>
+                <div class="work-descr">広さ33㎡</div>
+                <div class="work-descrs">利用推奨人数：20名程度</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>/#room-a">詳細はこちら</a>
                 </div>
               </div>
             </li>
             <li class="work-item illustration photography">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomB.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <h3 class="work-title">会議室B</h3>
+                <div class="work-descr">広さ28㎡</div>
+                <div class="work-descrs">利用推奨人数：10名程度</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>/#room-b">詳細はこちら</a>
                 </div>
               </div>
             </li>
@@ -114,9 +114,8 @@
               <div class="work-caption font-alt">
                 <h3 class="work-title">事務室A</h3>
                 <div class="work-descr">広さ : 25㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>/#office-a">詳細はこちら</a>
                 </div>
               </div>
             </li>
@@ -125,11 +124,10 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/>
               </div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <h3 class="work-title">事務室B</h3>
+                <div class="work-descr">広さ25㎡</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>/#office-b">詳細はこちら</a>
                 </div>
               </div>
             </li>
@@ -138,11 +136,10 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/>
               </div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <h3 class="work-title">事務室C</h3>
+                <div class="work-descr">広さ25㎡</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>/#office-c">詳細はこちら</a>
                 </div>
               </div>
             </li>
@@ -214,7 +211,7 @@
                 <?php get_template_part('loop', 'blog'); ?>
             </div>
             <div class="list-btn">
-              <a href="<?php echo get_permalink( 29 ); ?>">記事一覧</a>
+              <a href="<?php echo get_permalink( BLOG ); ?>">記事一覧</a>
             </div>
           </div>
         </section>
@@ -246,8 +243,8 @@
                 <div class="module-subtitle font-serif"></div>
               </div>
             </div>
-            <!-- 入力フォーム部分 -->
-            <?php echo do_shortcode( '[contact-form-7 id="7" title="Contact form 1"]' ); ?>
+            <?php echo get_template_part('form', 'local'); ?>
+            <?php //echo get_template_part('form', 'production'); ?>
             </div>
         </section>
 
