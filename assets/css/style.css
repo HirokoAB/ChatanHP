@@ -391,7 +391,7 @@ a,
 .module,
 .module-small {
   position: relative;
-  padding: 140px 0;
+  padding-top: 140px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   -webkit-background-size: cover;
@@ -847,18 +847,25 @@ a,
 .documentation-page a:hover {
   color: #1C92C9; }
 
-.footer {
-  padding: 10px 0; }
+footer {
+  padding: 10px 0;
+  margin-top: 20px; }
 
-.footer .copyright {
+footer .copyright {
   margin: 0; }
 
-.footer .footer-social-links {
+footer .footer-social-links {
   text-align: right; }
 
-.footer .footer-social-links a {
+footer .footer-social-links a {
   display: inline-block;
   padding: 0 6px; }
+
+footer .footer-left {
+  text-align: left; }
+
+footer .footer-right {
+  text-align: right; }
 
 /* Selection */
 ::-moz-selection {
@@ -1108,8 +1115,8 @@ a,
   background: rgba(34, 34, 34, 0.3); }
 
 @media (min-width: 768px) {
-  .navbar-transparent {
-    background: transparent;
+  .navbar-custom.navbar-transparent {
+    background-color: transparent;
     padding-bottom: 15px;
     padding-top: 15px; }
   .navbar-custom .dropdown-menu {
@@ -1376,37 +1383,6 @@ a,
   min-width: 180px;
   font-size: 11px; }
 
-/* Navbar search
-
-.dropdown-search {
-	position: relative;
-	padding: 5px;
-}
-
-.dropdown-search .form-control {
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 11px;
-}
-
-.search-btn {
-	position: absolute;
-	background: transparent;
-	border: none;
-	overflow: hidden;
-	top: 50%;
-	right: 1px;
-	width: 42px;
-	height: 40px;
-	line-height: 38px;
-	font-size: 14px;
-	outline: none;
-	color: #999;
-	margin-top: -20px;
-}*/
 /* Portfolio filter */
 .filter {
   text-align: center;
@@ -1434,7 +1410,8 @@ a,
 .work-item {
   width: 50%;
   float: left;
-  margin: 0; }
+  margin: 0;
+  padding: 5px; }
 
 .works-grid-3 .work-item {
   width: 33.3333%; }
@@ -1478,8 +1455,7 @@ a,
   position: absolute;
   bottom: 100%;
   left: 0;
-  text-align: center;
-  overflow: hidden; }
+  text-align: center; }
 
 .work-title {
   font-size: 14px;
@@ -2184,9 +2160,9 @@ blockquote {
   letter-spacing: 4px;
   text-align: center;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   color: #111;
-  margin: 0 0 70px; }
+  margin: 0 0 40px; }
 
 .module-subtitle {
   text-align: center;
@@ -2504,3 +2480,37 @@ blockquote {
 .office .office-room {
   margin-bottom: 20px;
   font-size: 25px; }
+
+.meeting .detail-btn,
+.office .detail-btn {
+  margin-top: 20px; }
+
+.meeting .detail-btn a,
+.office .detail-btn a {
+  padding: 5px 20px;
+  border-radius: 3px;
+  border: 1px solid #000; }
+
+.equipment h2 {
+  margin-top: 140px; }
+
+.studio .row {
+  display: flex;
+  align-items: center; }
+
+.studio tr {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 3px;
+  margin-bottom: 3px; }
+
+.news .list-btn {
+  margin-top: 30px;
+  text-align: center; }
+
+.news .list-btn a {
+  padding: 5px 30px;
+  border-radius: 3px;
+  border: 1px solid #ddd; }
+
+.map .container {
+  text-align: center; }
