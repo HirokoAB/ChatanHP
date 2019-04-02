@@ -2477,3 +2477,12 @@ blockquote {
 
 .equipment h2 {
   margin-top: 140px; }
+
+.studio .row {
+  display: flex;
+  align-items: center; }
+
+.studio tr {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 3px;
+  margin-bottom: 3px; }

@@ -143,7 +143,7 @@
         </section>
 
         <!-- レンタルスタジオ -->
-        <section class="module" id="studio">
+        <section class="module studio" id="studio">
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
@@ -179,7 +179,10 @@
                       <td>¥6,300</td>
                     </tr>
                   </table>
-                  <p class="link"><a href="">スタジオ</a>照明設備/図面<a href="">PDFダウンロード</a></p>
+                  <p class="link">
+                    <a href="">スタジオ 照明設備 /</a>
+                    <a href=""> 図面PDFダウンロード</a>
+                  </p>
                 </div>
               </div>
             </div>
