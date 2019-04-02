@@ -1,9 +1,9 @@
 <?php get_header(); ?>
       <div class="main">
         <!-- レンタル会議室ここから -->
-        <section class="module pb-0" id="meets">
+        <section class="module" id="meets">
           <div class="container">
-            <div class="row">
+            <div class="row text-center">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">レンタル会議室</h2>
                   <h5>1時間あたり1,200円からご案内しています。</h5>
@@ -50,9 +50,9 @@
         </section>
 
         <!-- レンタルオフィスここから -->
-        <section class="module pb-0" id="works">
+        <section class="module" id="works">
           <div class="container">
-            <div class="row">
+            <div class="row text-center">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">レンタルオフィス</h2>
                 <h5>レンタルオフィスは北谷町役場商工観光課より公募という形で募集をおこないます</h5>
@@ -92,43 +92,54 @@
         </section>
 
         <!-- レンタル機材セクション -->
-        <section class="module" id="rental">
-          <h2>レンタル機材</h2>
-          <h3>ご予約は本日より７営業日先から受付をおこない、向こう3ヶ月までご予約できます。</h3>
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid work-item">
-            <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/binden.jpg" alt="Rental Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">1日料金：2,600円</h3>
-                <h4 class="work-descr">詳細はこちらから</h4>
-              </div></a>
-              <span>ビンデン三脚</span>
-            </li>
-            <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/manfurotto.jpg" alt="Rental Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">1日料金：500円</h3>
-                <h4 class="work-descr">詳細はこちらから</h4>
-              </div></a>
-              <span>マンフロット三脚</span>
-            </li>
-            <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/dori-.jpg" alt="Rental Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">1日料金：500円</h3>
-                <h4 class="work-descr">詳細はこちらから</h4>
-              </div></a>
-              <span>ドリー</span>
-            </li>
-            <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lighting-kit.jpg" alt="Rental Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">1日料金：2,200円</h3>
-                <h4 class="work-descr">詳細はこちらから</h4>
-              </div></a>
-            <span>ライティングキット</span>
-            </li>
-          </ul>
+        <section class="module equipment" id="rental">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <h2 class="module-title">レンタル機材</h2>
+                <h5>ご予約は本日より７営業日先から受付をおこない、向こう3ヶ月までご予約できます。</h5>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+              
+              <ul class="works-grid-4 works-hover-w" id="works-grid work-item">
+                <li class="work-item"><a href="portfolio-single-1.html">
+                  <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/binden.jpg" alt="Rental Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">1日料金：2,600円</h3>
+                    <h4 class="work-descr">詳細はこちらから</h4>
+                  </div></a>
+                  <span>ビンデン三脚</span>
+                </li>
+                <li class="work-item"><a href="portfolio-single-1.html">
+                  <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/manfurotto.jpg" alt="Rental Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">1日料金：500円</h3>
+                    <h4 class="work-descr">詳細はこちらから</h4>
+                  </div></a>
+                  <span>マンフロット三脚</span>
+                </li>
+                <li class="work-item"><a href="portfolio-single-1.html">
+                  <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/dori-.jpg" alt="Rental Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">1日料金：500円</h3>
+                    <h4 class="work-descr">詳細はこちらから</h4>
+                  </div></a>
+                  <span>ドリー</span>
+                </li>
+                <li class="work-item"><a href="portfolio-single-1.html">
+                  <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lighting-kit.jpg" alt="Rental Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">1日料金：2,200円</h3>
+                    <h4 class="work-descr">詳細はこちらから</h4>
+                  </div></a>
+                <span>ライティングキット</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          
+
         </section>
 
         <!-- レンタルスタジオ -->
