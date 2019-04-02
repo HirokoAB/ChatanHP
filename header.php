@@ -137,5 +137,43 @@
         </div>
       </section>
       <?php else: ?>
-        トップページ以外
+      <!-- トップイメージ意外画面部分（スライダー表示） -->  
+      <section class="home-section home-parallax home-fade home-full-height" id="home">
+        <div class="hero-slider">
+          <ul class="slides">
+            <!-- スライダー１枚目 -->
+            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img1.JPG);">
+              <div class="titan-caption">
+                <div class="caption-content">
+                  <div class="font-alt mb-40 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
+                </div>
+              </div>
+            </li>
+            <!-- スライダー２枚目 -->
+            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img2.JPG);">
+              <div class="titan-caption">
+                <div class="caption-content">
+                  <div class="font-alt mb-40 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
+                </div>
+              </div>
+            </li>
+            <!-- スライダー３枚目 -->
+            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img3.JPG);">
+              <div class="titan-caption">
+                <div class="caption-content">
+                  <div class="font-alt mb-40 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
+                </div>
+              </div>
+            </li>
+            <!-- スライダー４枚目 -->
+            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img4.JPG);">
+              <div class="titan-caption">
+                <div class="caption-content">
+                  <div class="font-alt mb-40 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
       <?php endif; ?>
