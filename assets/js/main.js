@@ -1,4 +1,5 @@
 console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55');
+ console.log('hogehoge');
 
 /* ---------------------------------------------- /*
  * Preloader
@@ -89,9 +90,13 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             if (homeSection.length > 0) {
                 if (homeSection.hasClass('home-full-height')) {
                     homeSection.height($(window).height());
-                } else {
+                } else if (homeSection.hasClass('home-other-height')){
+                    homeSection.height($(window).height() * 0.4);
+
+                }else {
                     homeSection.height($(window).height() * 0.85);
                 }
+
             }
         }
 

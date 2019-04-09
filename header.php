@@ -137,15 +137,15 @@
         </div>
       </section>
       <?php else: ?>
-      <!-- トップイメージ意外画面部分（スライダー表示） -->  
-      <section class="home-section home-parallax home-fade home-full-height" id="home">
-        <div class="hero-slider">
+      <!-- トップイメージ以外画面部分（スライダー表示） -->  
+      <section class="home-section home-parallax home-fade home-other-height" id="home">
+        <div class="hero-slider other-slider">
           <ul class="slides">
             <!-- スライダー１枚目 -->
             <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img1.JPG);">
               <div class="titan-caption">
                 <div class="caption-content">
-                  <div class="font-alt mb-40 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
+                  <div class="font-alt mt-50 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
                 </div>
               </div>
             </li>
@@ -153,7 +153,7 @@
             <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img2.JPG);">
               <div class="titan-caption">
                 <div class="caption-content">
-                  <div class="font-alt mb-40 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
+                  <div class="font-alt  mt-50 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
                 </div>
               </div>
             </li>
@@ -161,7 +161,7 @@
             <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img3.JPG);">
               <div class="titan-caption">
                 <div class="caption-content">
-                  <div class="font-alt mb-40 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
+                  <div class="font-alt  mt-50 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
                 </div>
               </div>
             </li>
@@ -169,7 +169,7 @@
             <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img4.JPG);">
               <div class="titan-caption">
                 <div class="caption-content">
-                  <div class="font-alt mb-40 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
+                  <div class="font-alt  mt-50 titan-title-size-5">記憶や想いを”カタチ”にする施設</div>
                 </div>
               </div>
             </li>
