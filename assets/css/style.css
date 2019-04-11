@@ -1470,7 +1470,6 @@ otherhero Slider //topページ以外のスライダー
     width: 100%; } }
 
 .navbar-custom {
-  background-color: rgba(10, 10, 10, 0.9);
   border: 0;
   border-radius: 0;
   z-index: 1000;
