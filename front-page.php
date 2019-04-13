@@ -1,5 +1,52 @@
 <?php get_header(); ?>
       <div class="main">
+        <!-- レンタルスタジオ -->
+        <section class="module studio" id="studio">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio_slide/studio-1.jpg" alt="">
+              </div>
+              <div class="col-sm-6">
+                <div class="container table">
+                  <h2>レンタルスタジオ</h2>
+                  <p>広さ：６０坪</p>
+                  <table width="100%">
+                    <tr>
+                      <td></td>
+                      <td>9-19時/時間</td>
+                      <td>19-9時/時間</td>
+                      <td>1日/24時間</td>
+                    </tr>
+                    <tr>
+                      <td>スタジオ</td>
+                      <td>¥4,400</td>
+                      <td>¥5,700</td>
+                      <td>¥104,500</td>
+                    </tr>
+                    <tr>
+                      <td>照明設備</td>
+                      <td>¥5,400</td>
+                      <td>¥7,000</td>
+                      <td>¥129,400</td>
+                    </tr>
+                    <tr>
+                      <td>音響設備</td>
+                      <td></td>
+                      <td></td>
+                      <td>¥6,300</td>
+                    </tr>
+                  </table>
+                  <p class="link">
+                    <a href="">スタジオ 照明設備 /</a>
+                    <a href=""> 図面PDFダウンロード</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- レンタル会議室ここから -->
         <section class="module meeting">
           <div class="container">
@@ -151,53 +198,6 @@
 
           
 
-        </section>
-
-        <!-- レンタルスタジオ -->
-        <section class="module studio" id="studio">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio_slide/studio-1.jpg" alt="">
-              </div>
-              <div class="col-sm-6">
-                <div class="container table">
-                  <h2>レンタルスタジオ</h2>
-                  <p>広さ：６０坪</p>
-                  <table width="100%">
-                    <tr>
-                      <td></td>
-                      <td>9-19時/時間</td>
-                      <td>19-9時/時間</td>
-                      <td>1日/24時間</td>
-                    </tr>
-                    <tr>
-                      <td>スタジオ</td>
-                      <td>¥4,400</td>
-                      <td>¥5,700</td>
-                      <td>¥104,500</td>
-                    </tr>
-                    <tr>
-                      <td>照明設備</td>
-                      <td>¥5,400</td>
-                      <td>¥7,000</td>
-                      <td>¥129,400</td>
-                    </tr>
-                    <tr>
-                      <td>音響設備</td>
-                      <td></td>
-                      <td></td>
-                      <td>¥6,300</td>
-                    </tr>
-                  </table>
-                  <p class="link">
-                    <a href="">スタジオ 照明設備 /</a>
-                    <a href=""> 図面PDFダウンロード</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </section>
 
         <!-- メディアステーションのブログ -->
