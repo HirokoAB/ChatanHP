@@ -2401,7 +2401,8 @@ blockquote {
   width: 632.33px;
   margin-top: 5px; }
 
-.office .office {
+.office .list li {
+  padding: 15px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

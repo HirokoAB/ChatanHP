@@ -8,7 +8,7 @@
     Document Title
     =============================================
     -->
-    <title>北谷メディアセンター</title>
+    <title>北谷メディアステーション</title>
     <!--  
     Favicons
     =============================================
@@ -67,29 +67,29 @@
         <div class="container">
           <!-- タイトルテキストの記述 -->
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="<?php echo home_url(); ?>">北谷町メディアセンター</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="<?php echo home_url(); ?>">北谷町メディアステーション</a>
 
           </div>
           <!-- サブメニューの記述 -->
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <!-- HOMEドロップダウンメニュー -->
-              <li class="dropdown"><a href="<?php echo get_permalink( 15 ); ?>">レンタル会議室</a>
+              <li class="dropdown">
+                <a href="#studio">レンタルスタジオ</a>
               </li>
-              <!-- HEADERSドロップダウンメニュー -->
-              <li class="dropdown"><a href="<?php echo get_permalink( 11 ); ?>">レンタルオフィス</a>
+              <li class="dropdown">
+                <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>">レンタル会議室</a>
               </li>
-              <!-- PAGESドロップダウンメニュー -->
-              <li class="dropdown"><a href="<?php echo get_permalink( 17 ); ?>">レンタル機材</a>
+              <li class="dropdown">
+                <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>">レンタルオフィス</a>
               </li>
-              <!-- PORTFOLIOドロップダウンメニュー -->
-              <li class="dropdown"><a href="#studio">レンタルスタジオ</a>
+              <li class="dropdown">
+                <a href="<?php echo get_permalink( RENTAL_EQUIPMENT ); ?>">レンタル機材</a>
               </li>
-              <!-- BLOGドロップダウンメニュー -->
-              <li class="dropdown"><a href="#news">ブログ</a>
+              <li class="dropdown">
+                <a href="<?php echo get_permalink( BLOG ); ?>">ブログ</a>
               </li>
-              <!-- FEATURESドロップダウンメニュー -->
-              <li class="dropdown"><a href="#contact">お問い合わせ</a>
+              <li class="dropdown">
+                <a href="<?php echo home_url() ?>/#contact">お問い合わせ</a>
               </li>
             </ul>
           </div>
