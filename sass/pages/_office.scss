@@ -1,21 +1,22 @@
 .office {
-    h1{
+    h1 {
       text-align: center;
       font-size: 25px;
     }
     
-    h2{
+    h2 {
       text-align: center;
       font-size: 18px;
     }
-    img{
+
+    img {
       height: 381px;
       width: 632.33px;
       margin-top: 5px;
     }
     
-    
-    .office{
+    .list li {
+      padding: 15px 0;
       display: flex;
       justify-content: center;
     }
