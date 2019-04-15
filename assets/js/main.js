@@ -265,7 +265,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          * Portfolio
          /* ---------------------------------------------- */
 
-        var worksgrid   = $('#works-grid'),
+        var worksgrid   = $('.works-grid'),
             worksgrid_mode;
 
         if (worksgrid.hasClass('works-grid-masonry')) {

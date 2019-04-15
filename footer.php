@@ -3,10 +3,10 @@
         <footer class="footer bg-dark">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-sm-6 footer-left">
                 <p class="copyright font-alt"><a href="">北谷町美浜メディアステーション管理事務所 ALL RIGHT RESERVED</p></a>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-6 footer-right">
                 <a href="">北谷町役場HP</a>
                 <a href="">北谷町観光協会HP</a>
               </div>
