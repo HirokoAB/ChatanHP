@@ -183,6 +183,9 @@ a,
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	@include media(m) {
+		padding-top: 90px;
+	}
 }
 
 /* Module header */

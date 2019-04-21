@@ -74,7 +74,7 @@
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
-                <a href="#studio">レンタルスタジオ</a>
+                <a href="<?php echo home_url(); ?>/#studio">レンタルスタジオ</a>
               </li>
               <li class="dropdown">
                 <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>">レンタル会議室</a>

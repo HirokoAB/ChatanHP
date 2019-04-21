@@ -36,6 +36,9 @@
 	font-weight: 400;
 	font-size: 22px;
 	color: #fff;
+	@include media(m) {
+		font-size: 14px;
+	}
 }
 
 .navbar-custom .nav li > a {
