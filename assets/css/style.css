@@ -2378,18 +2378,43 @@ blockquote {
   border-bottom: 1px solid black;
   padding-bottom: 20px; }
 
+.meeting-room {
+  padding-top: 150px; }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room {
+    padding-top: 50px; } }
+
 .meeting-room h1 {
   text-align: center;
   font-size: 25px; }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room h1 {
+    font-size: 18px; } }
 
 .meeting-room h2 {
   text-align: center;
   font-size: 18px; }
 
+@media only screen and (max-width: 767px) {
+  .meeting-room h2 {
+    font-size: 16px; } }
+
 .meeting-room img {
   height: 381px;
-  width: 632.33px;
+  max-width: 632.33px;
   margin-top: 50px; }
+
+@media only screen and (max-width: 991px) {
+  .meeting-room img {
+    width: 442px;
+    height: 266px; } }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room img {
+    width: 100%;
+    height: auto; } }
 
 .meeting-room .it-room {
   display: -webkit-box;
@@ -2397,7 +2422,27 @@ blockquote {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.meeting-room .it-room:last-child {
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room .it-room {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 5%; }
+  .meeting-room .it-room:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; } }
 
 .meeting-room .text {
   display: -webkit-box;
@@ -2409,17 +2454,51 @@ blockquote {
   flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-right: 100px; }
 
-.meeting-room p {
-  margin-top: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-size: 18px; }
+.meeting-room .text:nth-child(even) {
+  margin-right: 0;
+  margin-left: 100px; }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room .text {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-left: 1%;
+    margin-right: 0; }
+  .meeting-room .text:nth-child(even) {
+    margin-left: 0; } }
 
 .meeting-room .it {
   margin-bottom: 20px;
   font-size: 25px; }
+
+@media only screen and (max-width: 991px) {
+  .meeting-room .it {
+    margin-bottom: 10px;
+    font-size: 20px; } }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room .it {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold; } }
+
+.meeting-room p {
+  margin: 10px 0;
+  font-size: 18px; }
+
+@media only screen and (max-width: 991px) {
+  .meeting-room p {
+    margin: 7px 0;
+    font-size: 16px; } }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room p {
+    margin: 0;
+    font-size: 14px;
+    padding: 5px 0; } }
 
 .office h1 {
   text-align: center;
