@@ -82,7 +82,7 @@
               <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>">レンタルオフィス</a>
             </li>
             <li class="dropdown">
-              <a href="<?php echo get_permalink( RENTAL_EQUIPMENT ); ?>">レンタル機材</a>
+              <a href="<?php echo home_url(); ?>/#rental">レンタル機材</a>
             </li>
             <li class="dropdown">
               <a href="<?php echo get_permalink( BLOG ); ?>">ブログ</a>
