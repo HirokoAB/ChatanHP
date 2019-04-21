@@ -1,13 +1,13 @@
 <?php get_header(); ?>
-      <div class="main">
+      <main class="main">
         <!-- レンタルスタジオ -->
         <section class="module studio" id="studio">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-md-6 col-xs-12">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio_slide/studio-1.jpg" alt="">
               </div>
-              <div class="col-sm-6">
+              <div class="col-md-6 col-xs-12">
                 <div class="container table">
                   <h2>レンタルスタジオ</h2>
                   <p>広さ：６０坪</p>
@@ -96,7 +96,7 @@
         </section>
 
         <!-- レンタルオフィス -->
-        <section class="module office">
+        <section class="module office-top">
           <div class="container">
             <div class="row text-center">
               <div class="col-sm-6 col-sm-offset-3">
@@ -147,7 +147,7 @@
         </section>
 
         <!-- レンタル機材セクション -->
-        <section class="module equipment" id="rental">
+        <section class="module equipment-top" id="rental">
           <div class="container">
             <div class="row text-center">
               <div class="col-sm-12">
@@ -198,7 +198,7 @@
         </section>
 
         <!-- メディアステーションのブログ -->
-        <section class="module news" id="news">
+        <section class="module news-top" id="news">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -229,13 +229,13 @@
         </section>
 
         <!-- コンタクトフォーム -->
-        <section class="module contact" id="contact">
+        <section class="module contact-top" id="contact">
           <div class="container">
             <!-- タイトルテキスト部分 -->
             <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
+              <div class="col-sm-8 col-sm-offset-2">
                 <h2 class="module-title font-alt">お問い合わせ</h2>
-                <div class="description col-sm-6 col-sm-offset-3">
+                <div class="description col-sm-8 col-sm-offset-2">
                   <p>北谷町美浜メディアステーション管理事務所</p>
                   <p>電話：098-926-5140（平日9時～17時）</p>
                   <p>FAX：098-926-5140</p>
@@ -247,5 +247,6 @@
             <?php //echo get_template_part('form', 'production'); ?>
             </div>
         </section>
+      </main>
 
 <?php get_footer(); ?>

@@ -59,13 +59,19 @@ blockquote {
 	font-size: 25px;
 	color: #111;
 	margin: 0 0 40px;
-}
+	@include media(m) {
+		font-size: 18px;
+	}
+ }
 
 .module-subtitle {
 	text-align: center;
 	font-size: 16px;
 	color: #111;
 	margin-bottom: 70px;
+	@include media(m) {
+		font-size: 14px;
+	}
 }
 
 .module-icon {

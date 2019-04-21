@@ -1,21 +1,18 @@
 
-        <!-- フッター -->
-        <footer class="footer bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 footer-left">
-                <p class="copyright font-alt"><a href="">北谷町美浜メディアステーション管理事務所 ALL RIGHT RESERVED</p></a>
-              </div>
-              <div class="col-sm-6 footer-right">
-                <a href="">北谷町役場HP</a>
-                <a href="">北谷町観光協会HP</a>
-              </div>
-            </div>
+    <!-- フッター -->
+    <footer class="footer bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12 footer-left">
+            <p class="copyright font-alt"><a href="">北谷町美浜メディアステーション管理事務所 ALL RIGHT RESERVED</p></a>
           </div>
-        </footer>
-
+          <div class="col-sm-6 col-xs-12 footer-right">
+            <a href="">北谷町役場HP</a>
+            <a href="">北谷町観光協会HP</a>
+          </div>
+        </div>
       </div>
-    </main>
+    </footer>
 
     <!--  
     JavaScripts
