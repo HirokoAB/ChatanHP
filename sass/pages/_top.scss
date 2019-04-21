@@ -68,6 +68,11 @@
     .row {
         display: flex;
         align-items: center;
+        .link {
+            a {
+                color: #337ab7;
+            }
+        }
         @include media(m) {
             flex-direction: column;
             h2 {
@@ -78,7 +83,6 @@
                 text-align: center;
                 a {
                     font-size: 1.6rem;
-                    color: #337ab7;
                 }
             }
         }
@@ -127,6 +131,13 @@
 
 .contact-top {
     text-align: center;
+    .cancel {
+        margin-top: 10px;
+        text-align: right;
+        a {
+            color: #337ab7;
+        }
+    }
     @include media(m) {
         .row .description {
             text-align: center;

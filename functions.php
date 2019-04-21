@@ -11,4 +11,4 @@ define(BLOG, 29);
 
 define(CANCEL_POLICY, 19);
 
-define(CANCEL_POLICY, 38);
+define(THANKS, 38);

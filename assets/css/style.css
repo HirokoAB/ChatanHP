@@ -1308,7 +1308,8 @@ footer .footer-right {
 
 @media only screen and (max-width: 767px) {
   .navbar-custom .navbar-brand {
-    font-size: 14px; } }
+    font-size: 14px;
+    padding-right: 5px; } }
 
 .navbar-custom .nav li > a {
   position: relative;
@@ -2354,15 +2355,36 @@ blockquote {
   width: 50%;
   margin: auto; }
 
+@media only screen and (max-width: 767px) {
+  .cancel-policy {
+    width: 90%; } }
+
 .cancel-policy h1 {
   text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  .cancel-policy h1 {
+    font-size: 24px; } }
+
+@media only screen and (max-width: 767px) {
+  .cancel-policy h2 {
+    font-size: 20px; } }
 
 .cancel-policy .container {
   margin: 10% 0%; }
 
-.cancel-policy .container > h2, .cancel-policy p, .cancel-policy ul {
+.cancel-policy .container > h2,
+.cancel-policy p,
+.cancel-policy ul {
   padding-left: 30px;
   line-height: 30px; }
+
+@media only screen and (max-width: 767px) {
+  .cancel-policy .container > h2,
+  .cancel-policy p,
+  .cancel-policy ul {
+    padding-left: 20px;
+    line-height: 26px; } }
 
 .cancel-policy #bank-account {
   width: 35%;
@@ -2683,6 +2705,9 @@ blockquote {
   -ms-flex-align: center;
   align-items: center; }
 
+.studio .row .link a {
+  color: #337ab7; }
+
 @media only screen and (max-width: 767px) {
   .studio .row {
     -webkit-box-orient: vertical;
@@ -2695,8 +2720,7 @@ blockquote {
     margin-top: 2rem;
     text-align: center; }
   .studio .row .link a {
-    font-size: 1.6rem;
-    color: #337ab7; } }
+    font-size: 1.6rem; } }
 
 .studio tr {
   border-bottom: 2px solid #ddd;
@@ -2730,6 +2754,13 @@ blockquote {
 
 .contact-top {
   text-align: center; }
+
+.contact-top .cancel {
+  margin-top: 10px;
+  text-align: right; }
+
+.contact-top .cancel a {
+  color: #337ab7; }
 
 @media only screen and (max-width: 767px) {
   .contact-top .row .description {
