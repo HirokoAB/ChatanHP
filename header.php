@@ -56,86 +56,85 @@
   </head>
 
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
-    <main>
-      <!-- ローディング画面の表示 -->
-      <div class="page-loader">
-        <div class="loader">Loading...</div>
-      </div>
+    <!-- ローディング画面の表示 -->
+    <div class="page-loader">
+      <div class="loader">Loading...</div>
+    </div>
 
-      <!-- ナビゲーション -->
-      <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
-        <div class="container">
-          <!-- タイトルテキストの記述 -->
-          <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="<?php echo home_url(); ?>">北谷町メディアステーション</a>
+    <!-- ナビゲーション -->
+    <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+      <div class="container">
+        <!-- タイトルテキストの記述 -->
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="<?php echo home_url(); ?>">北谷町メディアステーション</a>
 
-          </div>
-          <!-- サブメニューの記述 -->
-          <div class="collapse navbar-collapse" id="custom-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="<?php echo home_url(); ?>/#studio">レンタルスタジオ</a>
-              </li>
-              <li class="dropdown">
-                <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>">レンタル会議室</a>
-              </li>
-              <li class="dropdown">
-                <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>">レンタルオフィス</a>
-              </li>
-              <li class="dropdown">
-                <a href="<?php echo get_permalink( RENTAL_EQUIPMENT ); ?>">レンタル機材</a>
-              </li>
-              <li class="dropdown">
-                <a href="<?php echo get_permalink( BLOG ); ?>">ブログ</a>
-              </li>
-              <li class="dropdown">
-                <a href="<?php echo home_url() ?>/#contact">お問い合わせ</a>
-              </li>
-            </ul>
-          </div>
         </div>
-      </nav>
-
-      <?php if (is_home()): ?>
-      <!-- トップイメージ画面部分（スライダー表示） -->
-      <section class="home-section home-parallax home-fade home-full-height" id="home">
-        <div class="hero-slider">
-          <ul class="slides">
-            <!-- スライダー１枚目 -->
-            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img1.JPG);">
-              <div class="titan-caption">
-                <div class="caption-content">
-                  <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
-                </div>
-              </div>
+        <!-- サブメニューの記述 -->
+        <div class="collapse navbar-collapse" id="custom-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="<?php echo home_url(); ?>/#studio">レンタルスタジオ</a>
             </li>
-            <!-- スライダー２枚目 -->
-            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img2.JPG);">
-              <div class="titan-caption">
-                <div class="caption-content">
-                  <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
-                </div>
-              </div>
+            <li class="dropdown">
+              <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>">レンタル会議室</a>
             </li>
-            <!-- スライダー３枚目 -->
-            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img3.JPG);">
-              <div class="titan-caption">
-                <div class="caption-content">
-                  <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
-                </div>
-              </div>
+            <li class="dropdown">
+              <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>">レンタルオフィス</a>
             </li>
-            <!-- スライダー４枚目 -->
-            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img4.JPG);">
-              <div class="titan-caption">
-                <div class="caption-content">
-                  <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
-                </div>
-              </div>
+            <li class="dropdown">
+              <a href="<?php echo get_permalink( RENTAL_EQUIPMENT ); ?>">レンタル機材</a>
+            </li>
+            <li class="dropdown">
+              <a href="<?php echo get_permalink( BLOG ); ?>">ブログ</a>
+            </li>
+            <li class="dropdown">
+              <a href="<?php echo home_url() ?>/#contact">お問い合わせ</a>
             </li>
           </ul>
         </div>
-      </section>
-      <?php else: ?>
-        トップページ以外
-      <?php endif; ?>
+      </div>
+    </nav>
+
+    <?php if (is_home()): ?>
+    <!-- トップイメージ画面部分（スライダー表示） -->
+    <section class="home-section home-parallax home-fade home-full-height" id="home">
+      <div class="hero-slider">
+        <ul class="slides">
+          <!-- スライダー１枚目 -->
+          <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img1.JPG);">
+            <div class="titan-caption">
+              <div class="caption-content">
+                <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
+              </div>
+            </div>
+          </li>
+          <!-- スライダー２枚目 -->
+          <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img2.JPG);">
+            <div class="titan-caption">
+              <div class="caption-content">
+                <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
+              </div>
+            </div>
+          </li>
+          <!-- スライダー３枚目 -->
+          <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img3.JPG);">
+            <div class="titan-caption">
+              <div class="caption-content">
+                <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
+              </div>
+            </div>
+          </li>
+          <!-- スライダー４枚目 -->
+          <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img4.JPG);">
+            <div class="titan-caption">
+              <div class="caption-content">
+                <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <?php else: ?>
+      トップページ以外
+    <?php endif; ?>

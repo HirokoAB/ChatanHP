@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-      <div class="main">
+      <main class="main">
         <!-- レンタルスタジオ -->
         <section class="module studio" id="studio">
           <div class="container">
@@ -247,5 +247,6 @@
             <?php //echo get_template_part('form', 'production'); ?>
             </div>
         </section>
+      </main>
 
 <?php get_footer(); ?>
