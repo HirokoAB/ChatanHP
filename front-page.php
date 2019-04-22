@@ -38,7 +38,8 @@
                     </tr>
                   </table>
                   <p class="link">
-                    <a href="">スタジオ 照明設備 /</a>
+                    <a href="">スタジオ 照明設備</a>
+                    <span> / </span>
                     <a href=""> 図面PDFダウンロード</a>
                   </p>
                 </div>

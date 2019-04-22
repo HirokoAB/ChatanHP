@@ -1,18 +1,36 @@
 .cancel-policy {
     width: 50%;
+    @include media(m) {
+        width: 90%;
+    }
     margin:auto;
 
     h1 {
         text-align: center;
+        @include media(m) {
+            font-size: 24px;
+        }
+    }
+
+    h2 {
+        @include media(m) {
+            font-size: 20px;
+        }
     }
 
     .container{
         margin: 10% 0%;
     }
        
-    .container > h2,p,ul{
+    .container > h2,
+    p,
+    ul {
         padding-left: 30px;
         line-height: 30px;
+        @include media(m) {
+            padding-left: 20px;
+            line-height: 26px;
+        }
     }
 
     #bank-account{

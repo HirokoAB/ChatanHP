@@ -22,6 +22,9 @@
             <div class="text-center">
                 <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">送信</button>
             </div>
+            <div class="cancel">
+                <a href="<?php echo get_permalink( CANCEL_POLICY ); ?>">キャンセルポリシーはこちら</a>
+            </div>
         </form>
         <div class="ajax-response font-alt" id="contactFormResponse"></div>
     </div>

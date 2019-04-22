@@ -1309,7 +1309,8 @@ footer .footer-right {
 
 @media only screen and (max-width: 767px) {
   .navbar-custom .navbar-brand {
-    font-size: 14px; } }
+    font-size: 14px;
+    padding-right: 5px; } }
 
 .navbar-custom .nav li > a {
   position: relative;
@@ -2426,15 +2427,36 @@ blockquote {
   width: 50%;
   margin: auto; }
 
+@media only screen and (max-width: 767px) {
+  .cancel-policy {
+    width: 90%; } }
+
 .cancel-policy h1 {
   text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  .cancel-policy h1 {
+    font-size: 24px; } }
+
+@media only screen and (max-width: 767px) {
+  .cancel-policy h2 {
+    font-size: 20px; } }
 
 .cancel-policy .container {
   margin: 10% 0%; }
 
-.cancel-policy .container > h2, .cancel-policy p, .cancel-policy ul {
+.cancel-policy .container > h2,
+.cancel-policy p,
+.cancel-policy ul {
   padding-left: 30px;
   line-height: 30px; }
+
+@media only screen and (max-width: 767px) {
+  .cancel-policy .container > h2,
+  .cancel-policy p,
+  .cancel-policy ul {
+    padding-left: 20px;
+    line-height: 26px; } }
 
 .cancel-policy #bank-account {
   width: 35%;
@@ -2450,18 +2472,43 @@ blockquote {
   border-bottom: 1px solid black;
   padding-bottom: 20px; }
 
+.meeting-room {
+  padding-top: 150px; }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room {
+    padding-top: 50px; } }
+
 .meeting-room h1 {
   text-align: center;
   font-size: 25px; }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room h1 {
+    font-size: 18px; } }
 
 .meeting-room h2 {
   text-align: center;
   font-size: 18px; }
 
+@media only screen and (max-width: 767px) {
+  .meeting-room h2 {
+    font-size: 16px; } }
+
 .meeting-room img {
   height: 381px;
-  width: 632.33px;
+  max-width: 632.33px;
   margin-top: 50px; }
+
+@media only screen and (max-width: 991px) {
+  .meeting-room img {
+    width: 442px;
+    height: 266px; } }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room img {
+    width: 100%;
+    height: auto; } }
 
 .meeting-room .it-room {
   display: -webkit-box;
@@ -2469,7 +2516,27 @@ blockquote {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.meeting-room .it-room:last-child {
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room .it-room {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 5%; }
+  .meeting-room .it-room:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; } }
 
 .meeting-room .text {
   display: -webkit-box;
@@ -2481,39 +2548,116 @@ blockquote {
   flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-right: 100px; }
 
-.meeting-room p {
-  margin-top: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-size: 18px; }
+.meeting-room .text:nth-child(even) {
+  margin-right: 0;
+  margin-left: 100px; }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room .text {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-left: 1%;
+    margin-right: 0; }
+  .meeting-room .text:nth-child(even) {
+    margin-left: 0; } }
 
 .meeting-room .it {
   margin-bottom: 20px;
   font-size: 25px; }
 
+@media only screen and (max-width: 991px) {
+  .meeting-room .it {
+    margin-bottom: 10px;
+    font-size: 20px; } }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room .it {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold; } }
+
+.meeting-room p {
+  margin: 10px 0;
+  font-size: 18px; }
+
+@media only screen and (max-width: 991px) {
+  .meeting-room p {
+    margin: 7px 0;
+    font-size: 16px; } }
+
+@media only screen and (max-width: 767px) {
+  .meeting-room p {
+    margin: 0;
+    font-size: 14px;
+    padding: 5px 0; } }
+
+.office {
+  padding-top: 150px; }
+
+@media only screen and (max-width: 767px) {
+  .office {
+    padding-top: 50px; } }
+
 .office h1 {
   text-align: center;
   font-size: 25px; }
 
+@media only screen and (max-width: 767px) {
+  .office h1 {
+    font-size: 18px; } }
+
 .office h2 {
   text-align: center;
-  font-size: 18px; }
+  font-size: 18px;
+  padding: 0 5%; }
+
+@media only screen and (max-width: 767px) {
+  .office h2 {
+    font-size: 14px;
+    text-align: left; } }
 
 .office img {
   height: 381px;
   width: 632.33px;
   margin-top: 5px; }
 
+@media only screen and (max-width: 991px) {
+  .office img {
+    width: 442px;
+    height: 266px; } }
+
+@media only screen and (max-width: 767px) {
+  .office img {
+    width: 100%;
+    height: auto; } }
+
 .office .list li {
-  padding: 15px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  padding: 15px 0; }
+
+@media only screen and (max-width: 767px) {
+  .office .list li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 5%; }
+  .office .list li:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; } }
 
 .office .text {
   display: -webkit-box;
@@ -2525,17 +2669,51 @@ blockquote {
   flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-right: 100px; }
 
-.office p {
-  margin-top: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-size: 18px; }
+.office .text:nth-child(even) {
+  margin-right: 0;
+  margin-left: 100px; }
+
+@media only screen and (max-width: 767px) {
+  .office .text {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-left: 1%;
+    margin-right: 0; }
+  .office .text:nth-child(even) {
+    margin-left: 0; } }
 
 .office .office-room {
   margin-bottom: 20px;
   font-size: 25px; }
+
+@media only screen and (max-width: 991px) {
+  .office .office-room {
+    margin-bottom: 10px;
+    font-size: 20px; } }
+
+@media only screen and (max-width: 767px) {
+  .office .office-room {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold; } }
+
+.office p {
+  margin: 10px 0;
+  font-size: 18px; }
+
+@media only screen and (max-width: 991px) {
+  .office p {
+    margin: 7px 0;
+    font-size: 16px; } }
+
+@media only screen and (max-width: 767px) {
+  .office p {
+    margin: 0;
+    font-size: 14px;
+    padding: 5px 0; } }
 
 .meeting .detail-btn,
 .office-top .detail-btn {
@@ -2599,6 +2777,9 @@ blockquote {
   -ms-flex-align: center;
   align-items: center; }
 
+.studio .row .link a {
+  color: #337ab7; }
+
 @media only screen and (max-width: 767px) {
   .studio .row {
     -webkit-box-orient: vertical;
@@ -2611,8 +2792,7 @@ blockquote {
     margin-top: 2rem;
     text-align: center; }
   .studio .row .link a {
-    font-size: 1.6rem;
-    color: #337ab7; } }
+    font-size: 1.6rem; } }
 
 .studio tr {
   border-bottom: 2px solid #ddd;
@@ -2646,6 +2826,13 @@ blockquote {
 
 .contact-top {
   text-align: center; }
+
+.contact-top .cancel {
+  margin-top: 10px;
+  text-align: right; }
+
+.contact-top .cancel a {
+  color: #337ab7; }
 
 @media only screen and (max-width: 767px) {
   .contact-top .row .description {

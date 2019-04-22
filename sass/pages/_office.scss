@@ -1,41 +1,99 @@
 .office {
-    h1 {
-      text-align: center;
-      font-size: 25px;
-    }
-    
-    h2 {
-      text-align: center;
+  padding-top:  150px;
+  @include media(m) {
+    padding-top:  50px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    @include media(m) {
       font-size: 18px;
     }
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 5%;
+    @include media(m) {
+      font-size: 14px;
+      text-align: left;
+    }
+  }
 
-    img {
-      height: 381px;
-      width: 632.33px;
-      margin-top: 5px;
+  img {
+    height: 381px;
+    width: 632.33px;
+    margin-top: 5px;
+    @include media(l) {
+      width: 442px;
+      height: 266px;
     }
-    
-    .list li {
-      padding: 15px 0;
-      display: flex;
-      justify-content: center;
+    @include media(m) {
+      width: 100%;
+      height: auto;
     }
-    
-    .text{
-      display: flex;
+  }
+  
+  .list li {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    @include media(m) {
       flex-direction: column;
-      justify-content: center;
+      align-items: center;
+      margin: 0 5%;
+      &:nth-child(even) {
+        flex-direction: column-reverse;
+      }
     }
-    
-    p{
-      margin-top: 10px;
+  }
+  
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    &:nth-child(even) {
+      margin-right: 0;
       margin-left: 100px;
-      margin-right: 100px;
+    }
+    @include media(m) {
+      align-self: flex-start;
+      margin-left: 1%;
+      margin-right: 0;
+      &:nth-child(even) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .office-room{
+    margin-bottom: 20px;
+    font-size: 25px;
+    @include media(l) {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    @include media(m) {
+      margin-bottom: 0;
       font-size: 18px;
+      font-weight: bold;
     }
-    
-    .office-room{
-      margin-bottom: 20px;
-      font-size: 25px;
+  }
+  
+  p{
+    margin: 10px 0;
+    font-size: 18px;
+    @include media(l) {
+      margin: 7px 0;
+      font-size: 16px;
     }
+    @include media(m) {
+      margin: 0;
+      font-size: 14px;
+      padding: 5px 0;
+    }
+  }
+  
 }
