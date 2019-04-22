@@ -96,7 +96,7 @@
         </div>
       </nav>
 
-      <?php if (is_home()): ?>
+      <?php if (is_front_page()): ?>
       <!-- トップイメージ画面部分（スライダー表示） -->
       <section class="home-section home-parallax home-fade home-full-height" id="home">
         <div class="hero-slider">
