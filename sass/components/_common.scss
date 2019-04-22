@@ -176,13 +176,16 @@ a,
 .module,
 .module-small {
 	position: relative;
-	padding: 140px 0;
+	padding-top: 140px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	@include media(m) {
+		padding-top: 90px;
+	}
 }
 
 /* Module header */

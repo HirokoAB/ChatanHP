@@ -1,144 +1,13 @@
 <?php get_header(); ?>
-      <div class="main">
-        <!-- レンタル会議室ここから -->
-        <section class="module pb-0" id="meets">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">レンタル会議室</h2>
-                  <h5>1時間あたり1,200円からご案内しています。</h5>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-          </div>
-          <!-- イメージ画像 -->
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-            <!-- １枚目 -->
-            <li class="work-item illustration webdesign"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/IT.JPG" alt="Portfolio Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
-                <button>詳細はこちら</button>
-              </div></a>
-            </li>
-            <!-- ２枚目 -->
-            <li class="work-item marketing photography"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomA.JPG" alt="Portfolio Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
-                <button>詳細はこちら</button>
-
-              </div></a>
-            </li>
-            <!-- ３枚目 -->
-            <li class="work-item illustration photography"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomB.JPG" alt="Portfolio Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
-                <button>詳細はこちら</button>
-
-              </div></a>
-            </li>
-
-          </ul>
-        </section>
-
-        <!-- レンタルオフィスここから -->
-        <section class="module pb-0" id="works">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">レンタルオフィス</h2>
-                <h5>レンタルオフィスは北谷町役場商工観光課より公募という形で募集をおこないます</h5>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-          </div>
-          <!-- イメージ画像 -->
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-            <!-- １枚目 -->
-            <li class="work-item illustration webdesign"><a href="portfolio-single-1.html">
-                <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomA.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">事務室A</h3>
-                  <div class="work-descr">広さ：25㎡</div>
-                <button>詳細はこちら</button>
-
-                </div></a></li>
-            <!-- ２枚目 -->
-            <li class="work-item marketing photography"><a href="portfolio-single-1.html">
-                <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">事務室A</h3>
-                  <div class="work-descr">広さ：25㎡</div>
-                <button>詳細はこちら</button>
-
-                </div></a></li>
-            <!-- ３枚目 -->
-            <li class="work-item illustration photography"><a href="portfolio-single-1.html">
-                <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">事務室A</h3>
-                  <div class="work-descr">広さ：25㎡</div>
-                <button>詳細はこちら</button>
-                </div></a></li>
-          </ul>
-        </section>
-
-        <!-- レンタル機材セクション -->
-        <section class="module" id="rental">
-          <h2>レンタル機材</h2>
-          <h3>ご予約は本日より７営業日先から受付をおこない、向こう3ヶ月までご予約できます。</h3>
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid work-item">
-            <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/binden.jpg" alt="Rental Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">1日料金：2,600円</h3>
-                <h4 class="work-descr">詳細はこちらから</h4>
-              </div></a>
-              <span>ビンデン三脚</span>
-            </li>
-            <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/manfurotto.jpg" alt="Rental Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">1日料金：500円</h3>
-                <h4 class="work-descr">詳細はこちらから</h4>
-              </div></a>
-              <span>マンフロット三脚</span>
-            </li>
-            <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/dori-.jpg" alt="Rental Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">1日料金：500円</h3>
-                <h4 class="work-descr">詳細はこちらから</h4>
-              </div></a>
-              <span>ドリー</span>
-            </li>
-            <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lighting-kit.jpg" alt="Rental Item"/></div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">1日料金：2,200円</h3>
-                <h4 class="work-descr">詳細はこちらから</h4>
-              </div></a>
-            <span>ライティングキット</span>
-            </li>
-          </ul>
-        </section>
-
+      <main class="main">
         <!-- レンタルスタジオ -->
-        <section class="module" id="studio">
+        <section class="module studio" id="studio">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-md-6 col-xs-12">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio_slide/studio-1.jpg" alt="">
               </div>
-              <div class="col-sm-6">
+              <div class="col-md-6 col-xs-12">
                 <div class="container table">
                   <h2>レンタルスタジオ</h2>
                   <p>広さ：６０坪</p>
@@ -168,15 +37,169 @@
                       <td>¥6,300</td>
                     </tr>
                   </table>
-                  <p class="link"><a href="">スタジオ</a>照明設備/図面<a href="">PDFダウンロード</a></p>
+                  <p class="link">
+                    <a href="">スタジオ 照明設備</a>
+                    <span> / </span>
+                    <a href=""> 図面PDFダウンロード</a>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
+        <!-- レンタル会議室ここから -->
+        <section class="module meeting">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">レンタル会議室</h2>
+                  <h5>1時間あたり1,200円からご案内しています。</h5>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+          </div>
+          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w">
+            <li class="work-item illustration webdesign">
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/IT.JPG" alt="Portfolio Item"/></div>
+              <div class="work-caption font-alt">
+                <h3 class="work-title">IT研修室</h3>
+                <div class="work-descr">広さ55㎡</div>
+                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <div class="detail-btn">
+                  <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>/#room-it">詳細はこちら</a>
+                </div>
+              </div>
+            </li>
+            <li class="work-item marketing photography">
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomA.JPG" alt="Portfolio Item"/></div>
+              <div class="work-caption font-alt">
+                <h3 class="work-title">会議室A</h3>
+                <div class="work-descr">広さ33㎡</div>
+                <div class="work-descrs">利用推奨人数：20名程度</div>
+                <div class="detail-btn">
+                  <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>/#room-a">詳細はこちら</a>
+                </div>
+              </div>
+            </li>
+            <li class="work-item illustration photography">
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomB.JPG" alt="Portfolio Item"/></div>
+              <div class="work-caption font-alt">
+                <h3 class="work-title">会議室B</h3>
+                <div class="work-descr">広さ28㎡</div>
+                <div class="work-descrs">利用推奨人数：10名程度</div>
+                <div class="detail-btn">
+                  <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>/#room-b">詳細はこちら</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- レンタルオフィス -->
+        <section class="module office-top">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">レンタルオフィス</h2>
+                  <h5>レンタルオフィスは北谷町役場商工観光課より公募という形で募集をおこないます</h5>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+          </div>
+          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w">
+            <li class="work-item illustration webdesign">
+              <div class="work-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomA.JPG" alt="Portfolio Item"/>
+              </div>
+              <div class="work-caption font-alt">
+                <h3 class="work-title">事務室A</h3>
+                <div class="work-descr">広さ : 25㎡</div>
+                <div class="detail-btn">
+                  <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>/#office-a">詳細はこちら</a>
+                </div>
+              </div>
+            </li>
+            <li class="work-item illustration webdesign">
+              <div class="work-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/>
+              </div>
+              <div class="work-caption font-alt">
+                <h3 class="work-title">事務室B</h3>
+                <div class="work-descr">広さ25㎡</div>
+                <div class="detail-btn">
+                  <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>/#office-b">詳細はこちら</a>
+                </div>
+              </div>
+            </li>
+            <li class="work-item illustration photography">
+              <div class="work-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/>
+              </div>
+              <div class="work-caption font-alt">
+                <h3 class="work-title">事務室C</h3>
+                <div class="work-descr">広さ25㎡</div>
+                <div class="detail-btn">
+                  <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>/#office-c">詳細はこちら</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- レンタル機材セクション -->
+        <section class="module equipment-top" id="rental">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <h2 class="module-title">レンタル機材</h2>
+                <h5>ご予約は本日より７営業日先から受付をおこない、向こう3ヶ月までご予約できます。</h5>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+              
+              <ul class="works-grid-4 works-hover-w" id="work-item">
+                <li class="work-item"><a href="portfolio-single-1.html">
+                  <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/binden.jpg" alt="Rental Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">1日料金：2,600円</h3>
+                    <h4 class="work-descr">詳細はこちらから</h4>
+                  </div></a>
+                  <span>ビンデン三脚</span>
+                </li>
+                <li class="work-item"><a href="portfolio-single-1.html">
+                  <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/manfurotto.jpg" alt="Rental Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">1日料金：500円</h3>
+                    <h4 class="work-descr">詳細はこちらから</h4>
+                  </div></a>
+                  <span>マンフロット三脚</span>
+                </li>
+                <li class="work-item"><a href="portfolio-single-1.html">
+                  <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/dori-.jpg" alt="Rental Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">1日料金：500円</h3>
+                    <h4 class="work-descr">詳細はこちらから</h4>
+                  </div></a>
+                  <span>ドリー</span>
+                </li>
+                <li class="work-item"><a href="portfolio-single-1.html">
+                  <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lighting-kit.jpg" alt="Rental Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">1日料金：2,200円</h3>
+                    <h4 class="work-descr">詳細はこちらから</h4>
+                  </div></a>
+                <span>ライティングキット</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          
+
+        </section>
+
         <!-- メディアステーションのブログ -->
-        <section class="module" id="news">
+        <section class="module news-top" id="news">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -185,16 +208,17 @@
               </div>
             </div>
             <div class="row multi-columns-row post-columns">
-              <?php get_template_part('loop', 'blog'); ?>
+              <?php query_posts('posts_per_page=3'); ?>
+                <?php get_template_part('loop', 'blog'); ?>
             </div>
-            <div class="btn">
-              <a href="<?php echo get_permalink( 29 ); ?>">記事一覧</a>
+            <div class="list-btn">
+              <a href="<?php echo get_permalink( BLOG ); ?>">記事一覧</a>
             </div>
           </div>
         </section>
 
         <!-- googleマップ -->
-        <section class="module" id="map">
+        <section class="module map" id="map">
           <div class="container">
             <div class="row">
               <h2 class="module-title font-alt">アクセス</h2>
@@ -206,21 +230,24 @@
         </section>
 
         <!-- コンタクトフォーム -->
-        <section class="module" id="contact">
+        <section class="module contact-top" id="contact">
           <div class="container">
             <!-- タイトルテキスト部分 -->
             <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
+              <div class="col-sm-8 col-sm-offset-2">
                 <h2 class="module-title font-alt">お問い合わせ</h2>
-                <p>北谷町美浜メディアステーション管理事務所</p>
-                <p>電話：098-926-5140（平日9時～17時）</p>
-                <p>FAX：098-926-5140</p>
+                <div class="description col-sm-8 col-sm-offset-2">
+                  <p>北谷町美浜メディアステーション管理事務所</p>
+                  <p>電話：098-926-5140（平日9時～17時）</p>
+                  <p>FAX：098-926-5140</p>
+                </div>
                 <div class="module-subtitle font-serif"></div>
               </div>
             </div>
-            <!-- 入力フォーム部分 -->
-            <?php echo do_shortcode( '[contact-form-7 id="7" title="Contact form 1"]' ); ?>
+            <?php echo get_template_part('form', 'local'); ?>
+            <?php //echo get_template_part('form', 'production'); ?>
             </div>
         </section>
+      </main>
 
 <?php get_footer(); ?>
