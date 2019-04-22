@@ -1003,9 +1003,6 @@ a,
   background-position: center center;
   width: 100%;
   z-index: 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 .titan-title-size-1 {
@@ -1113,10 +1110,6 @@ General Styles - FlexSlider
 ------------------------------------------------------------------- */
 .flex-direction-nav a,
 .flex-control-nav > li > a {
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -ms-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
 
 .flex-direction-nav a {
@@ -1145,10 +1138,6 @@ General Styles - FlexSlider
   bottom: 20px;
   z-index: 11;
   text-align: center;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
   transform: translateX(-50%); }
 
 .flex-control-nav > li {
@@ -1161,8 +1150,6 @@ General Styles - FlexSlider
   display: block;
   height: 6px;
   width: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
   border-radius: 6px; }
 
 .flex-control-nav > li > a:hover,
@@ -1177,7 +1164,7 @@ Hero Slider
 
 .hero-slider .slides > li {
   display: none;
-  -webkit-backface-visibility: hidden; }
+  backface-visibility: hidden; }
 
 .hero-slider,
 .hero-slider .flex-viewport {
@@ -1188,8 +1175,6 @@ Hero Slider
 
 .hero-slider .slides {
   height: 100% !important;
-  -webkit-transition-delay: 1s;
-  -moz-transition-delay: 1s;
   transition-delay: 1s; }
 
 .hero-slider .flex-direction-nav a {
@@ -1203,9 +1188,7 @@ Hero Slider
   width: 100%;
   padding: 0;
   margin: 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
+  background-size: cover; }
 
 .slick-slide {
   max-height: 400px; }
@@ -1267,13 +1250,7 @@ General Styles - Owlcarousel
   height: 6px;
   width: 6px;
   margin: 0 3px 5px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
   border-radius: 6px;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -ms-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
 
 .owl-controls .owl-page.active span,
@@ -1470,6 +1447,7 @@ otherhero Slider //topページ以外のスライダー
     width: 100%; } }
 
 .navbar-custom {
+  background-color: rgba(10, 10, 10, 0.9);
   border: 0;
   border-radius: 0;
   z-index: 1000;
@@ -1477,17 +1455,9 @@ otherhero Slider //topページ以外のスライダー
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 11px;
-  -webkit-transition: background, padding 0.4s ease-in-out 0s;
-  -moz-transition: background, padding 0.4s ease-in-out 0s;
-  -ms-transition: background, padding 0.4s ease-in-out 0s;
-  -o-transition: background, padding 0.4s ease-in-out 0s;
   transition: background, padding 0.4s ease-in-out 0s; }
 
 .navbar a {
-  -webkit-transition: color 0.125s ease-in-out 0s;
-  -moz-transition: color 0.125s ease-in-out 0s;
-  -ms-transition: color 0.125s ease-in-out 0s;
-  -o-transition: color 0.125s ease-in-out 0s;
   transition: color 0.125s ease-in-out 0s; }
 
 .navbar-custom .dropdown-menu {
@@ -1495,7 +1465,6 @@ otherhero Slider //topページ以外のスライダー
   border-radius: 0;
   border: 0;
   padding: 0;
-  -webkit-box-shadow: none;
   box-shadow: none; }
 
 .navbar-custom .navbar-brand {
@@ -1550,8 +1519,8 @@ otherhero Slider //topページ以外のスライダー
   font-size: 9px;
   content: "\f107";
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  font-smoothing: antialiased;
+  osx-font-smoothing: grayscale; }
 
 .navbar-custom .navbar-toggle .icon-bar {
   background: #fff; }
@@ -1568,8 +1537,6 @@ otherhero Slider //topページ以外のスライダー
 }
 
 .dropdown-search .form-control {
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
 	border-radius: 0;
 	text-transform: uppercase;
 	letter-spacing: 2px;

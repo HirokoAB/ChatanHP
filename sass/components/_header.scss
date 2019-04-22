@@ -6,9 +6,6 @@
 	background-position: center center;
 	width: 100%;
 	z-index: 0;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 }
 
@@ -154,10 +151,6 @@ General Styles - FlexSlider
 
 .flex-direction-nav a,
 .flex-control-nav > li > a {
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	-moz-transition: all 0.3s ease-in-out 0s;
-	-ms-transition: all 0.3s ease-in-out 0s;
-	-o-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
 }
 
@@ -192,10 +185,6 @@ General Styles - FlexSlider
 	bottom: 20px;
 	z-index: 11;
 	text-align: center;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
 
 }
@@ -211,8 +200,6 @@ General Styles - FlexSlider
 	display: block;
 	height: 6px;
 	width: 6px;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
 	border-radius: 6px;
 }
 
@@ -231,7 +218,7 @@ Hero Slider
 
 .hero-slider .slides > li {
 	display: none;
-	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 .hero-slider,
@@ -244,8 +231,6 @@ Hero Slider
 
 .hero-slider .slides {
 	height: 100% !important;
-	-webkit-transition-delay: 1s;
-	-moz-transition-delay: 1s;
 	transition-delay: 1s;
 }
 
@@ -261,9 +246,7 @@ Hero Slider
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background-size: cover;
 }
 
 
@@ -345,13 +328,7 @@ General Styles - Owlcarousel
 	height: 6px;
 	width: 6px;
 	margin: 0 3px 5px;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
 	border-radius: 6px;
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	-moz-transition: all 0.3s ease-in-out 0s;
-	-ms-transition: all 0.3s ease-in-out 0s;
-	-o-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
 }
 
