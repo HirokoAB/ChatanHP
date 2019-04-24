@@ -81,17 +81,21 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             }
         });
 
-        /* ---------------------------------------------- /*
+
+
+         /* ---------------------------------------------- /*
          * Home section height
          /* ---------------------------------------------- */
+
 
         function buildHomeSection(homeSection) {
             if (homeSection.length > 0) {
                 if (homeSection.hasClass('home-full-height')) {
                     homeSection.height($(window).height());
-                } else {
-                    homeSection.height($(window).height() * 0.85);
+                }else {
+                    homeSection.height($(window).height() * 0.4);
                 }
+
             }
         }
 
