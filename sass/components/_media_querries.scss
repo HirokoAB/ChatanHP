@@ -1,8 +1,8 @@
 @media (min-width: 768px) {
 
-    .navbar-transparent {
-        background: transparent;
-        padding-bottom: 15px;
+.navbar-custom.navbar-transparent {
+    background-color: transparent;
+    padding-bottom: 15px;
     padding-top: 15px;
 }
 
@@ -205,7 +205,7 @@ letter-spacing: 2px;
 
 .titan-title-size-4 {
     letter-spacing: 6px;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 /* Features */

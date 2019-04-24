@@ -1,5 +1,9 @@
-.footer {
+footer {
 	padding: 10px 0;
+	margin-top: 60px;
+	@include media(m) {
+		font-size: 9px;
+	}
 
 	.copyright {
 		margin: 0;
@@ -11,6 +15,21 @@
 		a {
 			display: inline-block;
 			padding: 0 6px;
+		}
+	}
+
+    .footer-left {
+		text-align: left;
+		@include media(m) {
+			text-align: center;
+		}
+	}
+	
+	.footer-right {
+		text-align: right;
+		@include media(m) {
+			display: flex;
+			justify-content: space-around;
 		}
 	}
 }
