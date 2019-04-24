@@ -7,18 +7,10 @@
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-size: 11px;
-	-webkit-transition: background, padding 0.4s ease-in-out 0s;
-	-moz-transition: background, padding 0.4s ease-in-out 0s;
-	-ms-transition: background, padding 0.4s ease-in-out 0s;
-	-o-transition: background, padding 0.4s ease-in-out 0s;
 	transition: background, padding 0.4s ease-in-out 0s;
 }
 
 .navbar a {
-	-webkit-transition: color 0.125s ease-in-out 0s;
-	-moz-transition: color 0.125s ease-in-out 0s;
-	-ms-transition: color 0.125s ease-in-out 0s;
-	-o-transition: color 0.125s ease-in-out 0s;
 	transition: color 0.125s ease-in-out 0s;
 }
 
@@ -27,7 +19,6 @@
 	border-radius: 0;
 	border: 0;
 	padding: 0;
-	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 
@@ -94,8 +85,8 @@
 	font-size: 9px;
 	content: "\f107";
 	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+osx-font-smoothing: grayscale;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
@@ -106,3 +97,4 @@
 	min-width: 180px;
 	font-size: 11px;
 }
+
