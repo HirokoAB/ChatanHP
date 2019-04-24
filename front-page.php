@@ -40,7 +40,7 @@
                   <p class="link">
                     <a href="">スタジオ 照明設備</a>
                     <span> / </span>
-                    <a href=""> 図面PDFダウンロード</a>
+                    <a href="http://www.mihama-st.com/image/studio_baton.pdf" target="_blank"> 図面PDFダウンロード</a>
                   </p>
                 </div>
               </div>
