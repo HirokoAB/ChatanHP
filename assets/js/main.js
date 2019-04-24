@@ -98,10 +98,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
             }
         }
-       
 
-        console.log(window.innerHeight);
-        console.log(homeSection);
 
         /* ---------------------------------------------- /*
          * Home section effects
