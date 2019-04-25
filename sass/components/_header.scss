@@ -1,3 +1,4 @@
+
 .home-section {
 	position: relative;
 	background-color: #fff;
@@ -5,9 +6,6 @@
 	background-position: center center;
 	width: 100%;
 	z-index: 0;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 }
 
@@ -28,9 +26,13 @@
 	font-size: 46px;
 }
 
-.titan-title-size-4 {
+.titan-title-size-5 {
 	letter-spacing: 24px;
 	font-weight: 400;
+	font-size:18px;
+}
+
+.titan-title-size-4 {
 	font-size: 25px;
 }
 
@@ -144,3 +146,218 @@
 .shop-page-header:before {
 	background: rgba(34, 34, 34, 0.3);
 }
+
+
+
+/* -------------------------------------------------------------------
+General Styles - FlexSlider
+------------------------------------------------------------------- */
+
+.flex-direction-nav a,
+.flex-control-nav > li > a {
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.flex-direction-nav a {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 50%;
+	top: 0;
+	z-index: 10;
+	overflow: hidden;
+	opacity: 0;
+	margin:0;
+}
+
+.flex-direction-nav .flex-prev {
+	opacity: 0;
+	left: 0;
+	// cursor: url(../images/prev-light.png), e-resize;
+}
+
+.flex-direction-nav .flex-next {
+	opacity: 0;
+	right: 0;
+	// cursor: url(../images/next-light.png), e-resize;
+}
+
+.flex-control-nav {
+	position: absolute;
+	width: auto;
+	left: 50%;
+	bottom: 20px;
+	z-index: 11;
+	text-align: center;
+	transform: translateX(-50%);
+
+}
+
+.flex-control-nav > li {
+	display: inline-block;
+	margin: 5px 3px;
+}
+
+.flex-control-nav > li > a {
+	background: transparent;
+	border: 1px solid #fff;
+	display: block;
+	height: 6px;
+	width: 6px;
+	border-radius: 6px;
+}
+
+.flex-control-nav > li > a:hover,
+.flex-control-nav > li > a.flex-active {
+	background: #fff;
+}
+
+/* -------------------------------------------------------------------
+Hero Slider
+------------------------------------------------------------------- */
+
+.hero-slider {
+	margin: 0!important;
+}
+
+.hero-slider .slides > li {
+	display: none;
+	backface-visibility: hidden;
+}
+
+.hero-slider,
+.hero-slider .flex-viewport {
+	height: 100% !important;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.hero-slider .slides {
+	height: 100% !important;
+	transition-delay: 1s;
+}
+
+.hero-slider .flex-direction-nav a {
+	width: 15%;
+}
+
+.hero-slider .slides li {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100% !important;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+}
+
+
+.slick-slide {
+    max-height: 400px;
+}
+
+/* Caption */
+
+.titan-caption {
+	position: relative;
+	display: table;
+	height: 100%;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.titan-caption {
+	position: relative;
+	display: table;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.caption-content {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+/*
+Photography Page Slider
+*/
+.photography-page {
+	.image-caption {
+		bottom: 20px;
+		position: absolute;
+		width: 35%;
+
+		.caption-text {
+			font-size: 24px;
+			text-transform: capitalize;
+			letter-spacing: 1px;
+		}
+	}
+	.flex-control-nav {
+		left: 80%;
+		bottom: 20%;
+		z-index: 11;
+
+	}
+}
+
+
+
+/* -------------------------------------------------------------------
+General Styles - Owlcarousel
+------------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------
+General Styles - Owlcarousel
+------------------------------------------------------------------- */
+
+.owl-controls {
+	margin-top: 40px;
+}
+
+.owl-pagination div {
+	display: inline-block;
+}
+
+.owl-controls .owl-page span {
+	background: transparent;
+	border: 1px solid #111;
+	display: block;
+	height: 6px;
+	width: 6px;
+	margin: 0 3px 5px;
+	border-radius: 6px;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.owl-controls .owl-page.active span,
+.owl-controls.clickable .owl-page:hover span {
+	background: #111;
+}
+
+.owl-controls .owl-buttons > div {
+	display: inline-block;
+	margin: 5px;
+	font-size: 14px;
+	color: #111;
+}
+
+/* -------------------------------------------------------------------
+otherhero Slider //topページ以外のスライダー
+------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
