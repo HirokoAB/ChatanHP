@@ -27,9 +27,15 @@ footer {
 	
 	.footer-right {
 		text-align: right;
+		a:first-child {
+			margin-right: 20px;
+		}
 		@include media(m) {
 			display: flex;
 			justify-content: space-around;
+			a:first-child {
+				margin-right: 0;
+			}
 		}
 	}
 }
