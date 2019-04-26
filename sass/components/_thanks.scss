@@ -1,0 +1,49 @@
+/*---------------------------
+ thankyouページ
+ ----------------------------*/
+
+.container_thks{
+	text-align: center;
+	margin-top:50px;
+
+	h1 {
+	font-size:40px;
+	font-weight:bold;
+	}		
+	
+	p {
+	font-size:18px;
+	}
+
+	a {
+	border-bottom: 	dashed 0.5px gray;
+ 	}	
+
+}
+
+
+@include media(l) {
+	.container_thks {
+		h1{
+		font-size:30px;
+		}
+		p{
+			font-size:15px;
+		}
+	}
+}
+
+
+@include media(xs) {
+	.container_thks {
+		h1{
+		font-size:18px;
+		}
+
+		a{
+			font-size:12px;
+		}
+	}	
+}
+
+

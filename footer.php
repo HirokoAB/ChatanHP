@@ -1,6 +1,7 @@
 
     <!-- フッター -->
-    <footer class="footer bg-dark">
+    <footer class="footer bg-dark" <?php if(is_page('thanks')) echo "id=footer_fix" ?>
+    >
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-xs-12 footer-left">
