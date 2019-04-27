@@ -1,5 +1,53 @@
 <?php get_header(); ?>
-      <div class="main">
+      <main class="main">
+        <!-- レンタルスタジオ -->
+        <section class="module studio" id="studio">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-xs-12">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio_slide/studio-1.jpg" alt="">
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <div class="container table">
+                  <h2>レンタルスタジオ</h2>
+                  <p>広さ：６０坪</p>
+                  <table width="100%">
+                    <tr>
+                      <td></td>
+                      <td>9-19時/時間</td>
+                      <td>19-9時/時間</td>
+                      <td>1日/24時間</td>
+                    </tr>
+                    <tr>
+                      <td>スタジオ</td>
+                      <td>¥4,400</td>
+                      <td>¥5,700</td>
+                      <td>¥104,500</td>
+                    </tr>
+                    <tr>
+                      <td>照明設備</td>
+                      <td>¥5,400</td>
+                      <td>¥7,000</td>
+                      <td>¥129,400</td>
+                    </tr>
+                    <tr>
+                      <td>音響設備</td>
+                      <td></td>
+                      <td></td>
+                      <td>¥6,300</td>
+                    </tr>
+                  </table>
+                  <p class="link">
+                    <a href="">スタジオ 照明設備</a>
+                    <span> / </span>
+                    <a href="http://www.mihama-st.com/image/studio_baton.pdf" target="_blank"> 図面PDFダウンロード</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- レンタル会議室ここから -->
         <section class="module meeting">
           <div class="container">
@@ -19,29 +67,29 @@
                 <div class="work-descr">広さ55㎡</div>
                 <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>/#room-it">詳細はこちら</a>
                 </div>
               </div>
             </li>
             <li class="work-item marketing photography">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomA.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <h3 class="work-title">会議室A</h3>
+                <div class="work-descr">広さ33㎡</div>
+                <div class="work-descrs">利用推奨人数：20名程度</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>/#room-a">詳細はこちら</a>
                 </div>
               </div>
             </li>
             <li class="work-item illustration photography">
               <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomB.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <h3 class="work-title">会議室B</h3>
+                <div class="work-descr">広さ28㎡</div>
+                <div class="work-descrs">利用推奨人数：10名程度</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_MEETING ); ?>/#room-b">詳細はこちら</a>
                 </div>
               </div>
             </li>
@@ -49,7 +97,7 @@
         </section>
 
         <!-- レンタルオフィス -->
-        <section class="module office">
+        <section class="module office-top">
           <div class="container">
             <div class="row text-center">
               <div class="col-sm-6 col-sm-offset-3">
@@ -67,9 +115,8 @@
               <div class="work-caption font-alt">
                 <h3 class="work-title">事務室A</h3>
                 <div class="work-descr">広さ : 25㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>/#office-a">詳細はこちら</a>
                 </div>
               </div>
             </li>
@@ -78,11 +125,10 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/>
               </div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <h3 class="work-title">事務室B</h3>
+                <div class="work-descr">広さ25㎡</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>/#office-b">詳細はこちら</a>
                 </div>
               </div>
             </li>
@@ -91,11 +137,10 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/>
               </div>
               <div class="work-caption font-alt">
-                <h3 class="work-title">IT研修室</h3>
-                <div class="work-descr">広さ55㎡</div>
-                <div class="work-descrs">利用推奨人数：30名程度</div>
+                <h3 class="work-title">事務室C</h3>
+                <div class="work-descr">広さ25㎡</div>
                 <div class="detail-btn">
-                  <a href="">詳細はこちら</a>
+                  <a href="<?php echo get_permalink( RENTAL_OFFICE ); ?>/#office-c">詳細はこちら</a>
                 </div>
               </div>
             </li>
@@ -103,7 +148,7 @@
         </section>
 
         <!-- レンタル機材セクション -->
-        <section class="module equipment" id="rental">
+        <section class="module equipment-top" id="rental">
           <div class="container">
             <div class="row text-center">
               <div class="col-sm-12">
@@ -153,55 +198,8 @@
 
         </section>
 
-        <!-- レンタルスタジオ -->
-        <section class="module studio" id="studio">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio_slide/studio-1.jpg" alt="">
-              </div>
-              <div class="col-sm-6">
-                <div class="container table">
-                  <h2>レンタルスタジオ</h2>
-                  <p>広さ：６０坪</p>
-                  <table width="100%">
-                    <tr>
-                      <td></td>
-                      <td>9-19時/時間</td>
-                      <td>19-9時/時間</td>
-                      <td>1日/24時間</td>
-                    </tr>
-                    <tr>
-                      <td>スタジオ</td>
-                      <td>¥4,400</td>
-                      <td>¥5,700</td>
-                      <td>¥104,500</td>
-                    </tr>
-                    <tr>
-                      <td>照明設備</td>
-                      <td>¥5,400</td>
-                      <td>¥7,000</td>
-                      <td>¥129,400</td>
-                    </tr>
-                    <tr>
-                      <td>音響設備</td>
-                      <td></td>
-                      <td></td>
-                      <td>¥6,300</td>
-                    </tr>
-                  </table>
-                  <p class="link">
-                    <a href="">スタジオ 照明設備 /</a>
-                    <a href=""> 図面PDFダウンロード</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <!-- メディアステーションのブログ -->
-        <section class="module news" id="news">
+        <section class="module news-top" id="news">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -214,7 +212,7 @@
                 <?php get_template_part('loop', 'blog'); ?>
             </div>
             <div class="list-btn">
-              <a href="<?php echo get_permalink( 29 ); ?>">記事一覧</a>
+              <a href="<?php echo get_permalink( BLOG ); ?>">記事一覧</a>
             </div>
           </div>
         </section>
@@ -232,13 +230,13 @@
         </section>
 
         <!-- コンタクトフォーム -->
-        <section class="module contact" id="contact">
+        <section class="module contact-top" id="contact">
           <div class="container">
             <!-- タイトルテキスト部分 -->
             <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
+              <div class="col-sm-8 col-sm-offset-2">
                 <h2 class="module-title font-alt">お問い合わせ</h2>
-                <div class="description col-sm-6 col-sm-offset-3">
+                <div class="description col-sm-8 col-sm-offset-2">
                   <p>北谷町美浜メディアステーション管理事務所</p>
                   <p>電話：098-926-5140（平日9時～17時）</p>
                   <p>FAX：098-926-5140</p>
@@ -246,9 +244,10 @@
                 <div class="module-subtitle font-serif"></div>
               </div>
             </div>
-            <!-- 入力フォーム部分 -->
-            <?php echo do_shortcode( '[contact-form-7 id="7" title="Contact form 1"]' ); ?>
+            <?php echo get_template_part('form', 'local'); ?>
+            <?php //echo get_template_part('form', 'production'); ?>
             </div>
         </section>
+      </main>
 
 <?php get_footer(); ?>
