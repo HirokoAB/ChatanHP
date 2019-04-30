@@ -138,9 +138,9 @@ margin:3% 25% 10% 25%;
                   }
 }
 
-    @include media(l) {
+  @include media(l) {
     .article_container{
-          margin: 3% 10%;
+          margin: 3% 5%;
         }
 }        
 
@@ -153,7 +153,7 @@ margin:3% 25% 10% 25%;
 
 
 
-  @include media(xs) {
+  @include media(s) {
     .article_loop{
           flex-direction:column;
           }
@@ -164,9 +164,42 @@ margin:3% 25% 10% 25%;
           }     
     .post-meta p{
       margin-bottom:0px;
-          }      
-}
+          }  
 
+    .nav-below{
+
+    .pre{
+    left:10%;
+         }
+
+    .next{
+    right:10%;
+
+          }
+    }
+  
+  .post-entry {
+    border-top: none; 
+    padding-top: 0px;
+    margin-top: 10px;
+          }
+
+  .post-header{
+    display:flex;
+    justify-content:space-between;
+          }
+
+  .post-more{
+      margin-top:-10px;
+
+  &:after{
+    content:"";
+    margin-bottom:50px;
+          }
+  }
+
+
+}
 
 
 
