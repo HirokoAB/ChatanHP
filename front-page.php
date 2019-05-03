@@ -209,7 +209,7 @@
             </div>
             <div class="row multi-columns-row post-columns">
               <?php query_posts('posts_per_page=3'); ?>
-                <?php get_template_part('loop', 'main'); ?>
+                <?php get_template_part('loop', 'blog'); ?>
             </div>
             <div class="list-btn">
               <a href="<?php echo get_permalink( BLOG ); ?>">記事一覧</a>
