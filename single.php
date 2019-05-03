@@ -60,7 +60,7 @@
   <div class="article_loop">
     <?php $paged = get_query_var('paged'); ?>
     <?php query_posts("posts_per_page=3&paged+$paged"); ?>
-    <?php get_template_part('loop', 'main'); ?>
+    <?php get_template_part('loop', 'blog'); ?>
   </div> 
 
   <div class="list-btn">
