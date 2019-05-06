@@ -1,0 +1,188 @@
+.article_container{
+margin:3% 25% 10% 25%;
+
+}
+
+.cat-data ul{
+  margin-bottom:10px;
+}
+
+.article_title{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  margin-top:30px;
+  border-bottom:solid 0.5px gray;
+  
+  h1{
+    font-size:20px;
+    }
+  span{
+    font-size:14px;
+    margin-bottom:10px;
+    }
+}
+
+.article_img{
+  width:100%;
+}
+
+.article_content{
+  margin-top: 50px;
+  font-size:15px; 
+  p{
+  font-size:15px;
+  }
+}
+
+.nav-below{
+  position: relative;
+  width:100%;
+  margin-top:5%;
+
+  .pre{
+    position:absolute;
+    left:40%;
+  }
+
+  .next{
+    position:absolute;
+    right:40%;
+
+  }
+
+
+}
+
+.article_archive{
+    display:flex;
+    flex-direction:column;
+    width:70%;
+    margin: 200px auto;
+}
+ 
+ .latest_title{
+    font-size:20px;
+  text-align: center;
+
+  &::before{
+  margin-right:20px;
+}
+  &::after{
+  margin-left:20px;
+}
+
+ }
+
+.latest_title::before,
+.latest_title::after
+{
+      content:"";
+      display:inline-block;
+      width:30%;
+      height:1px;
+      background-color: #f4f4f4;
+      vertical-align: middle;
+}
+
+.article_loop{
+  display:flex;
+  align-items:flex-start;
+  margin-top:30px;
+}
+
+  h2{
+    font-size:15px;
+  }
+
+  p{
+    font-size:12px;
+    text-align:left;
+}
+
+.list-btn
+  { margin:80px auto;
+
+  a{
+  padding:10px 30px;
+  box-sizing:border-box;
+  border: 0.5px solid gray;
+  }
+}
+
+
+  @include media(xl) {
+    .article_container{
+          margin: 3% 20%;
+        }
+    .article_archive{
+          width:90%;
+                  }
+}
+
+  @include media(l) {
+    .article_container{
+          margin: 3% 5%;
+        }
+}        
+
+
+  @include media(m) {
+    .post-entry > p{
+      display:none;
+    }
+}
+
+
+
+  @include media(s) {
+    .article_loop{
+          flex-direction:column;
+          }
+    .latest_title::before,
+    .latest_title::after{
+          width:20%;
+    
+          }     
+    .post-meta p{
+      margin-bottom:0px;
+          }  
+
+    .nav-below{
+
+    .pre{
+    left:10%;
+         }
+
+    .next{
+    right:10%;
+
+          }
+    }
+  
+  .post-entry {
+    border-top: none; 
+    padding-top: 0px;
+    margin-top: 10px;
+          }
+
+  .post-header{
+    display:flex;
+    justify-content:space-between;
+          }
+
+  .post-more{
+      margin-top:-10px;
+
+  &:after{
+    content:"";
+    margin-bottom:50px;
+          }
+  }
+
+
+}
+
+
+
+

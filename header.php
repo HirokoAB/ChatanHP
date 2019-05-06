@@ -49,6 +49,8 @@
     <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Main stylesheet and color file-->
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="<?php echo get_template_directory_uri(); ?>/assets/css/colors/default.css" rel="stylesheet">
