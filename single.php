@@ -9,11 +9,11 @@
         <!--投稿日・著者を表示-->
         <div>
             <!--カテゴリ取得-->
-            <?php if(has_category() ): ?>
-              <span class="cat-data">
-                <?php echo the_category(''); ?>
-              </span>
-            <?php endif; ?>
+             <? #php if(has_category() ): ?>
+              <!-- <span class="cat-data"> -->
+                <?php # echo the_category(''); ?>
+              <!-- </span> -->
+            <?php #endif; ?>
         </div>
         <!--アイキャッチ取得-->
         <?php if( has_post_thumbnail() ): ?>
