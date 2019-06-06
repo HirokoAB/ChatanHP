@@ -2,10 +2,11 @@
 .office-top {
     .detail-btn {
         margin-top: 20px;
-        a {
+        span {
             padding: 5px 20px;
             border-radius: 3px;
             border: 1px solid #000;
+            color: #000;
         }
     }
     @include media(m) {

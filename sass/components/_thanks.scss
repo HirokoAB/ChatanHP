@@ -9,6 +9,7 @@
 	h1 {
 	font-size:40px;
 	font-weight:bold;
+
 	}		
 	
 	p {
@@ -18,7 +19,12 @@
 	a {
 	border-bottom: 	dashed 0.5px gray;
  	}	
-
+	 & + footer {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	 }
 }
 
 
@@ -34,7 +40,7 @@
 }
 
 
-@include media(xs) {
+@include media(m) {
 	.container_thks {
 		h1{
 		font-size:18px;
