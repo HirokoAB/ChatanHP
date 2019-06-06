@@ -147,3 +147,44 @@
 .image-button {
 	margin: 0px 5px;
 }
+
+.btn-pagi-cont{
+	margin: 8rem 0 2rem 0;
+	.next{
+		font-size: 1.5rem;
+		border: 2px solid #999;
+		margin-left: 1rem;
+		font-weight: bold;
+		padding: 1rem 5rem;
+		background: #fff;
+
+	}
+	.pre{
+		font-size: 1.5rem;
+		border: 2px solid #999;
+		font-weight: bold;
+		padding: 1rem 5rem;
+		background: #fff;
+
+	}
+}
+
+.btn_fix-cont{
+	margin: 8rem 0 2rem 0;
+	.next{
+		margin-left: 1.5rem;
+		font-size: 1rem;
+		border: 2px solid #999;
+		font-weight: bold;
+		padding: 1rem 5rem;
+		background: #fff;
+
+	}
+	.pre{
+		font-size: 1.5rem;
+		border: 2px solid #999;
+		font-weight: bold;
+		padding: 1rem 5rem;
+		background: #fff;
+	}
+}

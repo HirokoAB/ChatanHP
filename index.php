@@ -1,4 +1,4 @@
 <?php get_header(); ?>
-  テストだよー
+  テストだよーasdasd
   <?php get_template_part('loop', 'main'); ?>
 <?php get_footer(); ?>
